@@ -203,6 +203,7 @@ header nav a{
     text-align: center;
     color: #fff;
     font-size: 30px;
+    padding: 60px 0 10px;
 }
 .menu-container{
     margin-top: 30px;
@@ -315,6 +316,10 @@ header nav a{
     color: #000;
 }
 
+#menu{
+    display: none;
+}
+
 /* Breakpoint */
 @media (max-width: 992px){
     .gallery .gallery-con{
@@ -332,7 +337,20 @@ header nav a{
 
 @media (max-width: 768px){
     .hero nav{
-        display: none;
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 12rem;
+        height: 100vh;
+    }
+    .hero nav a{
+        color: black;
+        display: block;
+        padding: 10px;
+    }
+    .hero nav.active{
+        right: 0;
     }
     .hero .text h3{
         font-size: 2.5rem;
@@ -357,6 +375,10 @@ header nav a{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+    }
+    #menu{
+        display: inline-block;
+        cursor: pointer;
     }
 }
 
@@ -384,5 +406,9 @@ header nav a{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+    }
+
+    #menu{
+        display: inline-block;
     }
 }

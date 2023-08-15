@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/61fd100c88.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="hero">
         <header class="header">
             <a href="#" class="logo">Warteg<span>Bahari.</span></a>
-            <nav>
+            <nav id="navbar-nav">
                 <a href="#">Home</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
             </nav>
+            <i data-feather = "menu" id="menu"></i>
         </header>
         <div class="content">
             <div class="text">
@@ -154,5 +156,7 @@
             </div>
         </div>
     </div>
+    <script>feather.replace()</script>
+    <script src="index.js"></script>
 </body>
 </html>
