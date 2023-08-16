@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ticketID - Satu Aplikasi untuk Kebutuhan Liburanmu</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="header">
+            <a href="" class="logo">TicketID</a>
+            <div class="nav" id="nav">
+                <a href="#">Cek Pesanan</a>
+                <a href="#">Masuk</a>
+                <a href="#" class="btn" id="daftar">Daftar</a>
+            </div>
+            <i data-feather = "menu" id="menu"></i>
+        </div>
+        <div class="hero-text">
+            <div class="text">
+                <h3>Hey anjeun, mau kemana?</h3>
+                <input type="search" id="searchInput" placeholder="Mau liburan kemana?">
+                <div class="links">
+                    <div class="card">
+                        <a href=""><img src="/image/kereta.webp" alt="">Kereta</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/hotel.webp" alt="">Hotel</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/resort.webp" alt="">Villa</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/todo.webp" alt="">To Do</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/pswt.webp" alt="">Pesawat</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/event.webp" alt="">Event</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="title">
+            <h3>Temukan destinasi menarik lainnya</h3>
+            <p>Jangan lewatkan destinasi-destinasi seru lainnya. Cek sekarang!</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button">Indonesia</button>
+            <button class="menu-button">Internasional</button>
+            <button class="menu-button">influencer</button>
+        </div>
+        <div class="image-container">
+            <div class="cards">
+                <img src="image/jakarta.webp" alt="">
+            </div>
+            <div class="cards">
+                <img src="image/bali.webp" alt="">
+            </div>
+            <div class="cards">
+                <img src="image/ntt.webp" alt="">
+            </div>
+            <div class="cards">
+                <img src="image/medan.webp" alt="">
+            </div>
+            <div class="cards">
+                <img src="image/papua.webp" alt="">
+            </div>
+        </div>
+        <div class="lh"><a href="#">Lihat Semua</a></div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Nginep di akomodasi pilihan!</h3>
+            <p>Mau nginep ditempat populer, terpercaya, dan punya review kece? Cek Preferred Partner Plus aja!</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button" city = "Bandung">Bandung</button>
+            <button class="menu-button" city = "Bali">Bali</button>
+            <button class="menu-button" city = "Yogyakarta">Yogyakarta</button>
+            <button class="menu-button" city = "Semarang">Semarang</button>
+            <button class="menu-button" city = "Jakarta">Jakarta</button>
+            <button class="menu-button" city = "Bogor">Bogor</button>
+            <button class="menu-button" city = "Surabaya">Surabaya</button>
+            <button class="menu-button" city = "Lombok">Lombok</button>
+        </div>
+        <div class="hotel-container">
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/hotel/hotel.png" city ="bandung"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">The Papandayan</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Lengkong, Bandung</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3 class="price">IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/hotel/hotel2.png" city = "Bandung"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Marbella Hotel Dago</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Cimenyan, Bandung</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/hotel/hotel3.png" city = "Bandung"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Verona Palace Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Cimenyan, Bandung</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/hotel/hotel4.png" city = "Bandung"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Ariandri Boutique Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Cimenyan, Bandung</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 150.000</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/hotel/hotel5.png" city = "Bandung"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Kazeem Topas Galeria</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Cimenyan, Bandung</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/hotel/hotel6.webp" city = "Bandung"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Favehotel Braga</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Cimenyan, Bandung</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/hotel/hotel7.webp" city = "Bali"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">SOL by Melia Kuta Bali</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Kuta, Badung</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="lh"><a href="#">Lihat Semua</a></div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Merdeka buat jelajahi Nusantara</h3>
+            <p>Pesan hotel di berbagai destinasi populer di Indonesia dengan diskon hingga 40%+IDR 375rb!</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button">Jakarta</button>
+            <button class="menu-button">Bandung</button>
+            <button class="menu-button">Palembang</button>
+            <button class="menu-button">Medan</button>
+            <button class="menu-button">Semarang</button>
+            <button class="menu-button">Nusa Tenggara Timur</button>
+            <button class="menu-button">Bali</button>
+            <button class="menu-button">Kuta</button>
+        </div>
+        <div class="hotel-container">
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/merdeka/m1.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Grand Boutique-Inn</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Penjaringan, Jakut</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3 class="price">IDR 350.500</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/merdeka/m2.png"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Aryaduta Suite Semanggi</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Setiabudi, Jaksel</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/merdeka/m3.png"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Royal Kuningan Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Setiabudi, Jaksel</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/merdeka/m4.png"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Tebet Utara Residence</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Tebet, Jaksel</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 150.000</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/merdeka/m5.png"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Posto Dormire Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Grogol, Jakarta</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/merdeka/m6.png"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Redtop Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Gambir, Jakpus</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/merdeka/m7.png"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Verseluxe Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Tanah abang, Jakarta</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/merdeka/m8.png"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Century Park Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Senayan, Jaksel</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4.5/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="lh"><a href="#">Lihat Semua</a></div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Diskon buat ke luar negeri</h3>
+            <p>Liburan ke negara impian, nginepnya di hotel pilihan. Pesan sekarang, hemat hingga 50%+5%!</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button">Kuala Lumpur</button>
+            <button class="menu-button">Bangkok</button>
+            <button class="menu-button">Singapura</button>
+            <button class="menu-button">Hongkong</button>
+            <button class="menu-button">Tokyo</button>
+            <button class="menu-button">New York</button>
+            <button class="menu-button">Los Angeles</button>
+            <button class="menu-button">Barcelona</button>
+        </div>
+        <div class="hotel-container">
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln1.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Travelogdge Chinatown</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Chinatown, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3 class="price">IDR 350.500</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln2.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Melia Kuala umpur</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Bukit Bintang, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln3.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Mana Mana Suites</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Kampung Baru, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln4.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Pasific Express Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Chinatown, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 150.000</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln5.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Swiss-Garden Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Bukit Bintang, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln6.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Ceylonz Suites</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Bukit Bintang, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln7.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Dorsett Kuala Lumpur</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Bukit Bintang, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln8.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Cosmo Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Chinatown, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4.5/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln9.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Furama Bukit Bintang</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Bukit Bintang, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4.5/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/ln/ln10.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">My Hotel</h3>
+                        <div class="starate">
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <box-icon type='solid' name='star' size="xs"></box-icon>
+                            <p class="address">Bukit Bintang, KL</p>
+                        </div>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4.5/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="lh"><a href="#">Lihat Semua</a></div>
+    </div>
+    
+    <div class="hotel">
+        <div class="title">
+            <h3>Ide petualangan di luar negeri</h3>
+            <p>Ada beragam aktivitas keren di berbagai negara yang harus kamu cobain, nih!</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button">Singapura</button>
+            <button class="menu-button">Hongkong</button>
+            <button class="menu-button">Jepang</button>
+            <button class="menu-button">Korea Selatan</button>
+            <button class="menu-button">Australia</button>
+        </div>
+        <div class="hotel-container">
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/universalstudios.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Universal Studios</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3 class="price">IDR 350.500</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/garden.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Garden By the Bay</h3>
+                        <p class="address">Maria South, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/vangoh.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Rekomendasi atraksi seru buatmu</h3>
+            <p>Yuk, temukan atraksi ikonik di sekitarmu! Ada banyak diskon menanti</p>
+        </div>
+        <div class="hotel-container">
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/dufan.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Dunia Fantasi Ancol</h3>
+                        <p class="address">Pademangan, Jakut</p>
+                        <div class="review-caps">
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3 class="price">IDR 350.500</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/tamansaf.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Taman Safari Indonesia</h3>
+                        <p class="address">Cisarua, Bogor</p>
+                        <div class="review-caps">
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/Jakakuarium.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Jakarta Aquarium</h3>
+                        <p class="address">Grogol, JakBar</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/waterbom.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Waterboom Bali</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/balisaf.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Bali Safari and Marine Park</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/transtudio.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Transtudio Cibubur</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/balibird.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Transtudio Cibubur</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/seawordancol.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Transtudio Cibubur</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/gwk.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Transtudio Cibubur</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/batulove.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Transtudio Cibubur</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/opipempek.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Transtudio Cibubur</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/atraksi/hawaiwaterpark.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Transtudio Cibubur</h3>
+                        <p class="address">Kuta, Badung</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner"><a href="#"><img src="image/banne.webp" alt=""></a></div>
+
+    <div class="kota-indonesia">
+        <div class="title">
+            <h3>Mau jelajahi seluruh sudut kota? Bisaaa!</h3>
+            <p>Jadi lebih fleksibel keliling kota destinasi dengan sewa mobil lepas kunci.</p>
+        </div>
+        <div class="kota-container">
+            <div class="card-kota">
+                <a href="#">
+                <div class="image-kota"><img src="image/kota/Bali.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                <div class="image-kota"><img src="image/kota/surabaya.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                <div class="image-kota"><img src="image/kota/jogja.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                <div class="image-kota"><img src="image/kota/jakrata.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                <div class="image-kota"><img src="image/kota/bndung.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                <div class="image-kota"><img src="image/kota/medan.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                <div class="image-kota"><img src="image/kota/bali2.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                <div class="image-kota"><img src="image/kota/jogja2.webp" alt=""></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="panduan">
+        <div class="title">
+            <h3>Info & Panduan ringkas</h3>
+            <div class="menu">
+                <button class="menu-button" id="kebijakan">Kebijakan Perjalanan</button>
+                <button class="menu-button" id="benefit">Benefit & Panduan</button>
+            </div>
+            <div class="row">
+                <div class="row-card" class ="kp">
+                    <a href="#">
+                    <div class="row-image"><img src="image/panduan/p1.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class ="kp">
+                    <a href="#">
+                    <div class="row-image"><img src="image/panduan/p2.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class ="kp">
+                    <a href="#">
+                    <div class="row-image"><img src="image/panduan/p3.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class ="kp">
+                    <a href="#">
+                    <div class="row-image"><img src="image/panduan/p4.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class ="kp">
+                    <a href="#">
+                    <div class="row-image"><img src="image/panduan/p5.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class ="kp">
+                    <a href="#">
+                    <div class="row-image"><img src="image/panduan/p6.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                    <div class="row-image" class="bp"><img src="image/panduan/b1.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                    <div class="row-image" class="bp"><img src="image/panduan/b2.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                    <div class="row-image" class="bp"><img src="image/panduan/b3.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                    <div class="row-image" class="bp"><img src="image/panduan/b4.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                    <div class="row-image" class="bp"><img src="image/panduan/b5.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                    <div class="row-image" class="bp"><img src="image/panduan/b6.webp" alt=""></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner"><a href="#"><img src="image/banner.webp" alt=""></a></div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Saatnya main bareng si kecil</h3>
+            <p>Cek pilihan tempat bermain yang seru untuk anak! Ssst, ada yang bisa buat orang dewasa juga.</p>
+        </div>
+        <div class="hotel-container">
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m1.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Universal Studios</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>3/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3 class="price">IDR 350.500</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m2.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Garden By the Bay</h3>
+                        <p class="address">Maria South, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m3.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m4.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m5.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m6.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m7.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m8.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m9.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/main/m9.1.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="review-caps">
+                            <box-icon type='solid' name='badge-check' size="xs"></box-icon>
+                            <p>4/5 (1.500 Review)</p>
+                        </div>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Saatnya main bareng si kecil</h3>
+            <p>Cek pilihan tempat bermain yang seru untuk anak! Ssst, ada yang bisa buat orang dewasa juga.</p>
+        </div>
+        <div class="hotel-container">
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e1.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Universal Studios</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="price">
+                            <h3 class="price">IDR 350.500</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e2.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Garden By the Bay</h3>
+                        <p class="address">Maria South, Singapura</p>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e3.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e4.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e5.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e6.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e7.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e8.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                    <div class="card-images"><img src="image/event/e9.webp"></div>
+                    <div class="caption">
+                        <h3 class="hotel-name">Van gogh</h3>
+                        <p class="address">Pulau Sentosa, Singapura</p>
+                        <div class="price">
+                            <h3>IDR 907.618</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>feather.replace()</script>
+    <script src="script/index.js"></script>
+</body>
+</html>

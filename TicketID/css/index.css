@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,600&family=Satisfy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background-image: url('/image/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header {
+    padding: 16px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    border-bottom: 1px solid #fff;
+    backdrop-filter: blur(4px);
+}
+
+.header .logo {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header .nav a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.header .nav .btn {
+    padding: 6px 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1a75ff;
+    transition: .4s;
+}
+
+.header .nav .btn:hover {
+    background-color: #ffff33;
+    color: #000;
+}
+
+.header i{
+    display: none;
+}
+
+.header #menu{
+    display: none;
+}
+
+/* ----- hero text ------- */
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hero-text .text {
+    margin: auto 0;
+    text-align: center;
+}
+
+.text {
+    font-size: 30px;
+    color: #fff;
+}
+
+.text input {
+    padding: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.links {
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.links .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a img {
+    padding: 10px;
+    width: 40px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a img:hover {
+    background-color: #fff;
+}
+
+.links a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* ----- content ----- */
+.content {
+    padding: 40px 7%;
+}
+
+.content .title {
+    margin-bottom: 10px;
+}
+.content .title h3{
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.content .menu-button {
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+    margin-left: 5px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.active {
+    color: #1a75ff;
+    border: 1px solid #1a75ff;
+}
+
+.content .menu-button:first-child {
+    margin-left: 0;
+}
+
+.slider-container {
+    margin: 25px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.content .image-container{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.image-container .cards img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content .lh{
+    text-align: center;
+}
+.lh a {
+    color: #1a75ff;
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #d8f2ff;
+}
+.lh a:hover{
+    background-color: #80d4ff;
+}
+
+.hotel{
+    padding: 40px 7%;
+}
+.hotel .title{
+    margin-bottom: 10px;
+}
+.hotel .title h3{
+    letter-spacing: 1px;
+}
+.hotel .title p{
+    font-size: 15px;
+}
+.hotel .menu-button {
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+    margin-left: 5px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.active {
+    color: #1a75ff;
+    border: 1px solid #1a75ff;
+}
+
+.hotel .menu-button:first-child {
+    margin-left: 0;
+}
+
+::-webkit-scrollbar{
+    height: 8px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+
+}
+::-webkit-scrollbar-thumb{
+    background: #6e93f7;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #4070f4;
+}
+
+.hotel-container{
+    margin: 10px 0;
+    display: flex;
+    gap: 21px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    padding: 10px 0;
+}
+.hotel-container .card{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.hotel-container .card-images{
+    height: 150px;
+    width: 210px;
+}
+.hotel-container .card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.hotel-container .card .caption{
+    padding: 10px;
+    font-size: 14px;
+}
+.hotel-container .hotel-name{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.hotel-container .starate{
+    display: flex;
+    align-items: baseline;
+}
+.hotel-container .starate .address{
+    font-size: 11px;
+    margin-left: 5px;
+}
+.hotel-container .review-caps{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    align-items: baseline;
+}
+.hotel-container .price h3{
+    margin-top: 20px;
+    color: red;
+    font-weight: 500;
+}
+.hotel .lh{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.banner{
+    padding: 20px 7%;
+}
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Kota Indonesia */
+.kota-indonesia{
+    padding: 20px 7%;
+}
+.kota-container
+{
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    padding: 10px 0;
+}
+.card-kota .image-kota{
+    width: 250px;
+    height: 250px;
+}
+.image-kota img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Panduan */
+.panduan{
+    padding: 20px 7%;
+}
+.panduan .menu{
+    margin: 10px 0;
+}
+.panduan .menu .menu-button{
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+    margin-left: 5px;
+    cursor: pointer;
+    background: transparent;
+}
+.panduan .menu .menu-button:first-child{
+    margin-left: 0;
+}
+.panduan .row .row-card img{
+    width: 170px;
+    height: 170px;
+}
+.panduan .row .row-card .row-card .row-image{
+    width: 100%;
+    height: 100%;
+}
+.panduan .row{
+    margin: 10px 0;
+    display: flex;
+    gap: 27px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    .header #nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 13rem;
+        height: 100vh;
+        background-color: #fff;
+        transition: 0.3s linear;
+    }
+    .header #menu{
+        display: inline-block;
+    }
+    .header #nav a{
+        display: block;
+        color: #000;
+        margin: 10px;
+    }
+    .header #nav.active{
+        right: 0;
+        border: none;
+    }
+    .hero-text{
+        display: none;
+    }
+    .content .menu{
+        display: none;
+    }
+    .content .image-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
