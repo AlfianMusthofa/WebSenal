@@ -378,21 +378,42 @@ body {
 }
 
 .info .info-image{
-    width: 720px;
+    max-width: 720px;
     height: auto;
 }
 
 .info .info-image img{
-    width: 100%;
-    height: 100%;
+    max-width: 350px;
+    height: 350px;
 }
 
 .info .info-caption{
     margin: auto 0;
+    font-size: 15px;
 }
 
 .info .sub-caption{
     margin: 10px 0;
+}
+
+
+/* -- section -- */
+section{
+    padding: 25px 7%;
+}
+section .box:last-child{
+    margin-top: 40px;
+}
+section .box h3{
+    margin-bottom: 20px;
+}
+section .box p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+section .box a{
+    font-weight: 600;
+    color: #6e93f7;
 }
 
 
