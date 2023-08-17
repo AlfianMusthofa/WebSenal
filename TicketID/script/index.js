@@ -13,6 +13,22 @@ buttons.forEach(button => {
     });
 });
 
+const summaryButtons = document.querySelectorAll('.summary-button');
+
+summaryButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        summaryButtons.forEach(btn => {
+            btn.classList.remove('active');
+            btn.style.backgroundColor = '';
+            btn.style.color = 'black';
+        });
+
+        button.style.backgroundColor = 'skyblue';
+        button.style.color = 'white';
+    });
+});
+
+
 const warn = document.getElementById('daftar');
 warn.addEventListener('click', function() {
     alert('Belum Jadi!');
@@ -47,3 +63,4 @@ row.document.addEventListener('DOMContentLoaded', function(){
         bpCards.forEach(card => card.style.display = 'inline-block');
     });
 });
+
