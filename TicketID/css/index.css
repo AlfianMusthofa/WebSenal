@@ -425,12 +425,12 @@ body {
 /* ---- summary --- */
 .summary{
     padding: 20px 7%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--border-radius-color);
 }
 
 .summary .summary-btn{
     margin: 16px 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid var(--border-radius-color);
 }
 
 .summary .summary-btn button{
@@ -480,7 +480,7 @@ footer .footer-con{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 8px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px dashed var(--border-radius-color);
     padding: 20px 0;
 }
 
@@ -517,28 +517,45 @@ footer p{
     font-size: 15px;
 }
 
-.social{
-    padding: 0 7% 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid black;
-}
-
-.social-con{
+/* ---- social ---- */
+.social {
+    padding: 0 7% 5px;
     text-align: center;
 }
 
-.social-con p{
-    margin-bottom: 10px;
+.social p{
+    margin: 10px 0;
 }
 
-.copyright {
-    padding: 20px 7%;
+.social-icon img{
+    width: 25px;
+    height: 25px;
+}
+
+.social .social-icon {
+    margin: 16px 0;
+}
+
+.social .social-icon a{
+    padding: 0 4px;
+}
+
+.social .cpr {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.social .cpr img {
+    width: 13px;
+    height: 13px;
+}
+
+.social .cpr span {
+    margin-left: 3px;
+    font-size: 14px;
+}
+
 
 .copyright p {
     margin-left: 20px;
