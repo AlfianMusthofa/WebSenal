@@ -29,11 +29,6 @@ summaryButtons.forEach(button => {
 });
 
 
-const warn = document.getElementById('daftar');
-warn.addEventListener('click', function() {
-    alert('Belum Jadi!');
-})
-
 const nav = document.querySelector('#nav');
 const menu = document.querySelector('#menu');
 menu.addEventListener('click', function(){

@@ -76,11 +76,8 @@ button {
 button:hover {
     background-color: #66b3ff;
 }
-
-.links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.links{
     margin-top: 20px;
     font-size: 13px;
+    text-align: center;
 }
