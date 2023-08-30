@@ -58,7 +58,79 @@
         "name": "SOL by Melia Kuta",
         "image": "hotel7.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Cimenyan, Bandung",
+        "address": "Badung, Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Badung",
+        "name": "Sun Royal Hotel Kuta",
+        "image": "hotel8.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Badung, Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Badung",
+        "name": "ASTON Denpasar Hotel",
+        "image": "hotel9.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Badung, Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Badung",
+        "name": "Atayana Hotel Bali",
+        "image": "hotel10.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Badung, Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Badung",
+        "name": "Atayana Hotel Bali",
+        "image": "hotel11.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Badung, Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Badung",
+        "name": "Atayana Hotel Bali",
+        "image": "hotel12.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Badung, Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Badung",
+        "name": "Atayana Hotel Bali",
+        "image": "hotel13.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Badung, Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Badung",
+        "name": "Atayana Hotel Bali",
+        "image": "hotel14.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Badung, Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Badung",
+        "name": "Atayana Hotel Bali",
+        "image": "hotel15.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Badung, Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
         "price": "IDR 300.000"
     }
