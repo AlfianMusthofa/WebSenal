@@ -90,47 +90,56 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
-        "name": "Atayana Hotel Bali",
+        "city": "Yogyakarta",
+        "name": "Sahid Raya Hotel",
         "image": "hotel11.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Sleman, Yogyakarta",
+        "address": "Depok, Yogyakarta",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
-        "name": "Atayana Hotel Bali",
+        "city": "Yogyakarta",
+        "name": "Favehotel Kusumanegara",
         "image": "hotel12.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Badung, Bali",
+        "address": "Umbulharjo, Yogyakarta",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
-        "name": "Atayana Hotel Bali",
+        "city": "Yogyakarta",
+        "name": "Hotel New Saphire",
         "image": "hotel13.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Badung, Bali",
+        "address": "Gondokusuman, Yogya",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
-        "name": "Atayana Hotel Bali",
+        "city": "Yogyakarta",
+        "name": "Horison Lynn Hotel",
         "image": "hotel14.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Badung, Bali",
+        "address": "Mantrijeron, Yogya",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
-        "name": "Atayana Hotel Bali",
+        "city": "Yogyakarta",
+        "name": "Indolux Hotel",
         "image": "hotel15.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Badung, Bali",
+        "address": "Monjali, Sleman",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Yogyakarta",
+        "name": "The Rich Hotel",
+        "image": "hotel16.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Sinduadi, Sleman",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
         "price": "IDR 300.000"
     }

@@ -14,6 +14,23 @@ buttons.forEach(button => {
     });
 });
 
+const bbtn = document.querySelectorAll('.menu-button-hotel1');
+bbtn.forEach(button => {
+    button.addEventListener('click', function() {
+        bbtn.forEach(btn => {
+            btn.classList.remove('active');
+            btn.style.backgroundColor = '';
+            btn.style.border = '';
+        });
+
+        button.classList.add('active');
+        button.style.backgroundColor = '#cce6ff'; 
+        button.style.border = '1px solid blue';
+
+    });
+});
+
+
 const summaryButtons = document.querySelectorAll('.summary-button');
 
 summaryButtons.forEach(button => {
