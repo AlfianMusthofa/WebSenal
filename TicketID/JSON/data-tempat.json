@@ -142,5 +142,50 @@
         "address": "Sinduadi, Sleman",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
         "price": "IDR 300.000"
+    },
+    {
+        "city": "Semarang",
+        "name": "Sisingamangaraja",
+        "image": "hotel17.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Candisari, Semarang",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Semarang",
+        "name": "Horison Ultima",
+        "image": "hotel18.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Candisari, Semarang",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Semarang",
+        "name": "Hotel Grand Arkenso",
+        "image": "hotel19.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Semarang tengah",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Semarang",
+        "name": "Surya Boutique Hotel",
+        "image": "hotel20.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Semarang tengah",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Semarang",
+        "name": "Louis Kienne Hotel",
+        "image": "hotel21.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Semarang Selatan",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
     }
 ]
