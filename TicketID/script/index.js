@@ -46,7 +46,7 @@ document.addEventListener('click', function(e){
 
 // MENDAPATKAN DATA DARI JSON
 
-$.getJSON('data-tempat.json', function(data) {
+$.getJSON('JSON/data-tempat.json', function(data) {
     $.each(data, function(i, data) {
         $('#daftar-tempat1').append('<div class="card"><a href="#"><div class="card-images"><img src="image/hotel/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>');
     })
