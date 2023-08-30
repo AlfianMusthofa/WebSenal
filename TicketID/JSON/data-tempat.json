@@ -9,7 +9,7 @@
         "price": "IDR 350.000"
     },
     {
-        "city": "Bandung",
+        "city": "Bali",
         "name": "Marbella Hotel Dago",
         "image": "hotel2.png",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -18,7 +18,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bandung",
+        "city": "Bali",
         "name": "Verona Pallace Hotel",
         "image": "hotel3.png",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -27,7 +27,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bandung",
+        "city": "Bali",
         "name": "Ariandri boutique Hotel",
         "image": "hotel4.png",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -36,7 +36,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bandung",
+        "city": "Bali",
         "name": "Kazeem Topas Galeria",
         "image": "hotel5.png",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -45,7 +45,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bandung",
+        "city": "Bali",
         "name": "Favehotel Braga",
         "image": "hotel6.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -54,7 +54,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
+        "city": "Bali",
         "name": "SOL by Melia Kuta",
         "image": "hotel7.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -63,7 +63,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
+        "city": "Bali",
         "name": "Sun Royal Hotel Kuta",
         "image": "hotel8.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -72,7 +72,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
+        "city": "Bali",
         "name": "ASTON Denpasar Hotel",
         "image": "hotel9.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -81,7 +81,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Badung",
+        "city": "Bali",
         "name": "Atayana Hotel Bali",
         "image": "hotel10.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",

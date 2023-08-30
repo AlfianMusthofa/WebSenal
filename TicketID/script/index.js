@@ -14,21 +14,33 @@ buttons.forEach(button => {
     });
 });
 
-const bbtn = document.querySelectorAll('.menu-button-hotel1');
-bbtn.forEach(button => {
-    button.addEventListener('click', function() {
-        bbtn.forEach(btn => {
-            btn.classList.remove('active');
-            btn.style.backgroundColor = '';
-            btn.style.border = '';
+// BUTTON HOTEL1
+$('.menu-button-hotel1').on('click', function() {
+    $('.menu-button-hotel1').removeClass('active')
+    $(this).addClass('active');
+    $('.menu-button-hotel1').css({
+        'backgroundColor':'',
+        'border':''
+    });
+    $('.menu-button-hotel1.active').css({
+        'backgroundColor':'#cce6ff',
+        'border':'1px solid blue'
+    });
+
+    let cityName = $(this).html();
+
+    $.getJSON('JSON/data-tempat.json', function(data) {
+        let content = '';
+        $.each(data, function(i, data) {
+            if(data.city == cityName){
+                content += '<div class="card"><a href="#"><div class="card-images"><img src="image/hotel/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>'
+            }
         });
 
-        button.classList.add('active');
-        button.style.backgroundColor = '#cce6ff'; 
-        button.style.border = '1px solid blue';
-
+        $('#daftar-tempat1').html(content);
     });
 });
+
 
 
 const summaryButtons = document.querySelectorAll('.summary-button');
