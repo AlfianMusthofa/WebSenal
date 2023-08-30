@@ -41,6 +41,27 @@ $('.menu-button-hotel1').on('click', function() {
     });
 });
 
+// BUTTON HOTEL2
+$('.menu-button-hotel2').on('click', function(data) {
+    $('.menu-button-hotel2').removeClass('active')
+    $(this).addClass('active');
+    $('.menu-button-hotel2').css({
+        'backgroundColor':'',
+        'border':''
+    });
+    $('.menu-button-hotel2.active').css({
+        'backgroundColor':'#cce6ff',
+        'border':'1px solid blue'
+    });
+});
+
+
+
+
+
+
+
+
 
 
 const summaryButtons = document.querySelectorAll('.summary-button');

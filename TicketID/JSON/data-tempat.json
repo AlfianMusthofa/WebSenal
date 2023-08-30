@@ -180,11 +180,173 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Semarang",
+        "city": "Jakarta",
         "name": "Louis Kienne Hotel",
         "image": "hotel21.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
         "address": "Semarang Selatan",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Jakarta",
+        "name": "Louis Kienne Hotel",
+        "image": "hotel22.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Semarang Selatan",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Jakarta",
+        "name": "Louis Kienne Hotel",
+        "image": "hotel23.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Semarang Selatan",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Jakarta",
+        "name": "Louis Kienne Hotel",
+        "image": "hotel24.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Semarang Selatan",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Jakarta",
+        "name": "Louis Kienne Hotel",
+        "image": "hotel25.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Semarang Selatan",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Jakarta",
+        "name": "Louis Kienne Hotel",
+        "image": "hotel26.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Semarang Selatan",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Bogor",
+        "name": "Grand Pangrango",
+        "image": "hotel27.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Bogor Tengah",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Bogor",
+        "name": "Padjadjaran Suites",
+        "image": "hotel28.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Bogor Selatan",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Bogor",
+        "name": "Bogor Valley Hotel",
+        "image": "hotel29.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Tanah Sereal",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Bogor",
+        "name": "Puncak Rass Resort",
+        "image": "hotel30.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Cisarua, Bogor",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Surabaya",
+        "name": "Garden Palace Hotel",
+        "image": "hotel31.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Genteng, SBY",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Surabaya",
+        "name": "Quds Royal Hotel",
+        "image": "hotel32.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Semampir, SBY",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Surabaya",
+        "name": "Sahid Surabaya",
+        "image": "hotel33.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Genteng, SBY",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Surabaya",
+        "name": "Quest Hotel Darmo",
+        "image": "hotel34.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Tegalsari, SBY",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Lombok",
+        "name": "Nutana Hotel Lombok",
+        "image": "hotel35.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Mataram, NTB",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Lombok",
+        "name": "Palapa Hotel Lombok",
+        "image": "hotel36.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Mataram, NTB",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Lombok",
+        "name": "Lombok Garden Hotel",
+        "image": "hotel37.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Mataram, NTB",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Lombok",
+        "name": "Grand Senggigi Hotel",
+        "image": "hotel38.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Senggigi, NTB",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 300.000"
+    },
+    {
+        "city": "Lombok",
+        "name": "Amarsvati Luxury",
+        "image": "hotel39.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Senggigi, NTB",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
         "price": "IDR 300.000"
     }

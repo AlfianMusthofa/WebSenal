@@ -233,6 +233,16 @@ body {
     cursor: pointer;
     background: transparent;
 }
+.hotel .menu-button-hotel2 {
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--border-radius-color);
+    margin-left: 5px;
+    cursor: pointer;
+    background: transparent;
+}
 .active {
     color: #1a75ff;
     border: 1px solid #1a75ff;
