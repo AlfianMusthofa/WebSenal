@@ -1,0 +1,11 @@
+[
+    {
+        "city": "Bandung",
+        "name": "Imah Bandung",
+        "image": "t1.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
+        "address": "Lembang, Bandung",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 792.000"
+    }
+]

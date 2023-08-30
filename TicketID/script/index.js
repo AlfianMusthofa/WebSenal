@@ -53,6 +53,19 @@ $('.menu-button-hotel2').on('click', function(data) {
         'backgroundColor':'#cce6ff',
         'border':'1px solid blue'
     });
+
+    let cityName = $(this).html();
+
+    $.getJSON('JSON/data-tempat2.json', function(data) {
+        let content = '';
+        $.each(data, function(i, data) {
+            if(data.city == cityName){
+                content += '<div class="card"><a href="#"><div class="card-images"><img src="image/tempat2/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>'
+            }
+        });
+        
+        $('#daftar-tempat2').html(content);
+    });
 });
 
 
