@@ -9,7 +9,7 @@
         "price": "IDR 350.000"
     },
     {
-        "city": "Bali",
+        "city": "Bandung",
         "name": "Marbella Hotel Dago",
         "image": "hotel2.png",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -18,7 +18,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bali",
+        "city": "Bandung",
         "name": "Verona Pallace Hotel",
         "image": "hotel3.png",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -27,7 +27,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bali",
+        "city": "Bandung",
         "name": "Ariandri boutique Hotel",
         "image": "hotel4.png",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -36,7 +36,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bali",
+        "city": "Bandung",
         "name": "Kazeem Topas Galeria",
         "image": "hotel5.png",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -45,7 +45,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bali",
+        "city": "Bandung",
         "name": "Favehotel Braga",
         "image": "hotel6.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
@@ -81,7 +81,7 @@
         "price": "IDR 300.000"
     },
     {
-        "city": "Bali",
+        "city": "",
         "name": "Atayana Hotel Bali",
         "image": "hotel10.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
