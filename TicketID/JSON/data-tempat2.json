@@ -85,7 +85,7 @@
         "name": "The Papandayan",
         "image": "t10.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Lengkong",
+        "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     },
@@ -94,7 +94,7 @@
         "name": "The Papandayan",
         "image": "t11.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Lengkong",
+        "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     },
@@ -103,7 +103,7 @@
         "name": "The Papandayan",
         "image": "t12.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Lengkong",
+        "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     },
@@ -112,7 +112,7 @@
         "name": "The Papandayan",
         "image": "t13.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Lengkong",
+        "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     },
@@ -121,7 +121,7 @@
         "name": "The Papandayan",
         "image": "t14.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Lengkong",
+        "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     },
@@ -130,7 +130,7 @@
         "name": "The Papandayan",
         "image": "t15.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Lengkong",
+        "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     },
@@ -139,7 +139,7 @@
         "name": "The Papandayan",
         "image": "t16.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Lengkong",
+        "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     },
@@ -148,7 +148,70 @@
         "name": "The Papandayan",
         "image": "t17.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
-        "address": "Lengkong",
+        "address": "Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t18.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t19.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t20.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t21.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t22.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t23.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Bali",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t24.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     }
