@@ -295,6 +295,276 @@
         "address": "Bali",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
+    },
+    {
+        "city": "Yogyakarta",
+        "name": "The Papandayan",
+        "image": "yogyakarta (1).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Yogyakarta",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Yogyakarta",
+        "name": "The Papandayan",
+        "image": "yogyakarta (2).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Yogyakarta",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Yogyakarta",
+        "name": "The Papandayan",
+        "image": "yogyakarta (3).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Yogyakarta",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Yogyakarta",
+        "name": "The Papandayan",
+        "image": "yogyakarta (4).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Yogyakarta",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Yogyakarta",
+        "name": "The Papandayan",
+        "image": "yogyakarta (5).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Yogyakarta",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Yogyakarta",
+        "name": "The Papandayan",
+        "image": "yogyakarta (6).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Yogyakarta",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Yogyakarta",
+        "name": "The Papandayan",
+        "image": "yogyakarta (7).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Yogyakarta",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Tenggara Timur",
+        "name": "The Papandayan",
+        "image": "ntt (1).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "NTT",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Tenggara Timur",
+        "name": "The Papandayan",
+        "image": "ntt (2).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "NTT",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Tenggara Timur",
+        "name": "The Papandayan",
+        "image": "ntt (3).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "NTT",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Tenggara Timur",
+        "name": "The Papandayan",
+        "image": "ntt (4).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "NTT",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Tenggara Timur",
+        "name": "The Papandayan",
+        "image": "ntt (5).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "NTT",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Tenggara Timur",
+        "name": "The Papandayan",
+        "image": "ntt (6).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "NTT",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Tenggara Timur",
+        "name": "The Papandayan",
+        "image": "ntt (7).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "NTT",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Tenggara Timur",
+        "name": "The Papandayan",
+        "image": "ntt (8).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "NTT",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Luxury Hotel",
+        "name": "The Papandayan",
+        "image": "luxury (1).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "luxury",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 1.200.000"
+    },
+    {
+        "city": "Luxury Hotel",
+        "name": "The Papandayan",
+        "image": "luxury (2).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "luxury",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 1.200.000"
+    },
+    {
+        "city": "Luxury Hotel",
+        "name": "The Papandayan",
+        "image": "luxury (3).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "luxury",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 1.200.000"
+    },
+    {
+        "city": "Luxury Hotel",
+        "name": "The Papandayan",
+        "image": "luxury (4).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "luxury",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 1.200.000"
+    },
+    {
+        "city": "Luxury Hotel",
+        "name": "The Papandayan",
+        "image": "luxury (5).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "luxury",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 1.200.000"
+    },
+    {
+        "city": "Luxury Hotel",
+        "name": "The Papandayan",
+        "image": "luxury (6).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "luxury",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 1.200.000"
+    },
+    {
+        "city": "Luxury Hotel",
+        "name": "The Papandayan",
+        "image": "luxury (7).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "luxury",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 1.200.000"
+    },
+    {
+        "city": "Budget Hotel",
+        "name": "The Papandayan",
+        "image": "budget (1).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Budget",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Budget Hotel",
+        "name": "The Papandayan",
+        "image": "budget (2).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Budget",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Budget Hotel",
+        "name": "The Papandayan",
+        "image": "budget (3).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Budget",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Budget Hotel",
+        "name": "The Papandayan",
+        "image": "budget (4).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Budget",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Budget Hotel",
+        "name": "The Papandayan",
+        "image": "budget (5).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Budget",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Budget Hotel",
+        "name": "The Papandayan",
+        "image": "budget (6).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Budget",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Budget Hotel",
+        "name": "The Papandayan",
+        "image": "budget (7).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Budget",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Budget Hotel",
+        "name": "The Papandayan",
+        "image": "budget (8).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Budget",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
     }
     
 ]
