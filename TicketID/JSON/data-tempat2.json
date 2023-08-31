@@ -1,7 +1,7 @@
 [
     {
         "city": "Bandung",
-        "name": "Imah Bandung",
+        "name": "Imah Seniman Resort",
         "image": "t1.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
         "address": "Lembang, Bandung",
@@ -10,7 +10,7 @@
     },
     {
         "city": "Bandung",
-        "name": "Imah Bandung",
+        "name": "Namin Dago Hotel",
         "image": "t2.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
         "address": "Lembang, Bandung",
@@ -19,7 +19,7 @@
     },
     {
         "city": "Bandung",
-        "name": "Imah Bandung",
+        "name": "Hotel Daily Inn Bandung",
         "image": "t3.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
         "address": "Lembang, Bandung",
@@ -28,7 +28,7 @@
     },
     {
         "city": "Bandung",
-        "name": "Imah Bandung",
+        "name": "Shakti Hotel Bandung",
         "image": "t4.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
         "address": "Lembang, Bandung",
@@ -37,7 +37,7 @@
     },
     {
         "city": "Bandung",
-        "name": "Imah Bandung",
+        "name": "Villa Natural Air Resort",
         "image": "t5.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
         "address": "Lembang, Bandung",
@@ -46,7 +46,7 @@
     },
     {
         "city": "Bandung",
-        "name": "Imah Bandung",
+        "name": "Arion Suites Hotel",
         "image": "t6.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
         "address": "Lembang, Bandung",
@@ -55,7 +55,7 @@
     },
     {
         "city": "Bandung",
-        "name": "Imah Bandung",
+        "name": "Janevalla Hotel",
         "image": "t7.webp",
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
         "address": "Lembang, Bandung",
@@ -78,6 +78,78 @@
         "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> ",
         "address": "Lengkong, Bandung",
         "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 3/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t10.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Lengkong",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t11.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Lengkong",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t12.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Lengkong",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t13.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Lengkong",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t14.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Lengkong",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t15.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Lengkong",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t16.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Lengkong",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 499.000"
+    },
+    {
+        "city": "Nusa Penida",
+        "name": "The Papandayan",
+        "image": "t17.webp",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Lengkong",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
         "price": "IDR 499.000"
     }
 ]
