@@ -14,96 +14,6 @@ buttons.forEach(button => {
     });
 });
 
-// BUTTON HOTEL1
-$('.menu-button-hotel1').on('click', function() {
-    $('.menu-button-hotel1').removeClass('active')
-    $(this).addClass('active');
-    $('.menu-button-hotel1').css({
-        'backgroundColor':'',
-        'border':''
-    });
-    $('.menu-button-hotel1.active').css({
-        'backgroundColor':'#cce6ff',
-        'border':'1px solid blue'
-    });
-
-    let cityName = $(this).html();
-
-    $.getJSON('JSON/data-tempat1.json', function(data) {
-        let content = '';
-        $.each(data, function(i, data) {
-            if(data.city == cityName){
-                content += '<div class="card"><a href="#"><div class="card-images"><img src="image/tempat1/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>'
-            }
-        });
-        
-        $('#daftar-tempat1').html(content);
-    });
-});
-
-// BUTTON HOTEL2
-$('.menu-button-hotel2').on('click', function(data) {
-    $('.menu-button-hotel2').removeClass('active')
-    $(this).addClass('active');
-    $('.menu-button-hotel2').css({
-        'backgroundColor':'',
-        'border':''
-    });
-    $('.menu-button-hotel2.active').css({
-        'backgroundColor':'#cce6ff',
-        'border':'1px solid blue'
-    });
-
-    let cityName = $(this).html();
-
-    $.getJSON('JSON/data-tempat2.json', function(data) {
-        let content = '';
-        $.each(data, function(i, data) {
-            if(data.city == cityName){
-                content += '<div class="card"><a href="#"><div class="card-images"><img src="image/tempat2/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>'
-            }
-        });
-        
-        $('#daftar-tempat2').html(content);
-    });
-});
-
-// BUTTON HOTEL3
-$('.menu-button-hotel3').on('click', function(data) {
-    $('.menu-button-hotel3').removeClass('active')
-    $(this).addClass('active');
-    $('.menu-button-hotel3').css({
-        'backgroundColor':'',
-        'border':''
-    });
-    $('.menu-button-hotel3.active').css({
-        'backgroundColor':'#cce6ff',
-        'border':'1px solid blue'
-    });
-
-    let cityName = $(this).html();
-
-    $.getJSON('JSON/data-tempat3.json', function(data) {
-        let content = '';
-        $.each(data, function(i, data) {
-            if(data.city == cityName){
-                content += '<div class="card"><a href="#"><div class="card-images"><img src="image/tempat3/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>'
-            }
-        });
-        
-        $('#daftar-tempat3').html(content);
-    });
-});
-
-
-
-
-
-
-
-
-
-
 const summaryButtons = document.querySelectorAll('.summary-button');
 
 summaryButtons.forEach(button => {
@@ -132,6 +42,54 @@ document.addEventListener('click', function(e){
     }
 })
 
+// // BUTTON HOTEL1
+// $('.menu-button-hotel1').on('click', function() {
+//     $('.menu-button-hotel1').removeClass('active')
+//     $(this).addClass('active');
+//     $('.menu-button-hotel1').css({
+//         'backgroundColor':'',
+//         'border':''
+//     });
+//     $('.menu-button-hotel1.active').css({
+//         'backgroundColor':'#cce6ff',
+//         'border':'1px solid blue'
+//     });
+
+//     let cityName = $(this).html();
+
+//     $.getJSON('JSON/data-tempat1.json', function(data) {
+//         let content = '';
+//         $.each(data, function(i, data) {
+//             if(data.city == cityName){
+//                 content += '<div class="card"><a href="#"><div class="card-images"><img src="image/tempat1/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>'
+//             }
+//         });
+        
+//         $('#daftar-tempat1').html(content);
+//     });
+// });
+
+$(document).ready(function() {
+    for (let i = 1; i <= 3; i++) { 
+        $('.menu-button-hotel' + i).on('click', function() {
+            $('.menu-button-hotel' + i).removeClass('active');
+            $(this).addClass('active');
+            
+            let cityName = $(this).html();
+
+            $.getJSON('JSON/data-tempat' + i + '.json', function(data) {
+                let content = '';
+                $.each(data, function(j, data) {
+                    if (data.city == cityName) {
+                        content += '<div class="card"><a href="#"><div class="card-images"><img src="image/tempat' + i + '/' + data.image + '"></div><div class="caption"><h3 class="hotel-name">' + data.name + '</h3><div class="starate">' + data.rating + '<p class="address">' + data.address + '</p></div><div class="review-caps">' + data.review + '</div><div class="price"><h3 class="price">' + data.price + '</h3></div></div></a></div>'
+                    }
+                });
+                
+                $('#daftar-tempat' + i).html(content);
+            });
+        });
+    }
+});
 
 
 // MENDAPATKAN DATA DARI JSON
@@ -142,19 +100,7 @@ document.addEventListener('click', function(e){
 //     })
 // });
 
-// $.getJSON('JSON/data-tempat2.json', function(data) {
-//     $.each(data, function(i, data) {
-//         $('#daftar-tempat2').append('<div class="card"><a href="#"><div class="card-images"><img src="image/tempat2/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>');
-//     })
-// });
-// $.getJSON('JSON/data-tempat3.json', function(data) {
-//     $.each(data, function(i, data) {
-//         $('#daftar-tempat3').append('<div class="card"><a href="#"><div class="card-images"><img src="image/tempat3/'+ data.image +'"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>');
-//     })
-// });
-
-// Buat array yang berisi angka-angka untuk menggantikan 'X' dalam nama berkas JSON
-const fileNumbers = [1, 2, 3]; // Ganti dengan angka sesuai dengan jumlah berkas yang ingin Anda gunakan
+const fileNumbers = [1, 2, 3];
 
 $(document).ready(function() {
     fileNumbers.forEach(function(number) {
