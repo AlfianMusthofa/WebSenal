@@ -42,7 +42,6 @@ document.addEventListener('click', function(e){
     }
 })
 
-// // BUTTON HOTEL1
 // $('.menu-button-hotel1').on('click', function() {
 //     $('.menu-button-hotel1').removeClass('active')
 //     $(this).addClass('active');
