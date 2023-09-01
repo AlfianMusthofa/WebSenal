@@ -45,6 +45,7 @@ document.addEventListener('click', function(e){
 // $('.menu-button-hotel1').on('click', function() {
 //     $('.menu-button-hotel1').removeClass('active')
 //     $(this).addClass('active');
+
 //     $('.menu-button-hotel1').css({
 //         'backgroundColor':'',
 //         'border':''
@@ -73,7 +74,7 @@ $(document).ready(function() {
         $('.menu-button-hotel' + i).on('click', function() {
             $('.menu-button-hotel' + i).removeClass('active');
             $(this).addClass('active');
-            
+
             let cityName = $(this).html();
 
             $.getJSON('JSON/data-tempat' + i + '.json', function(data) {
