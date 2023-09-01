@@ -1,0 +1,83 @@
+[
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (1).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (2).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (3).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (4).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (5).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (6).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (7).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (8).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "The Papandayan",
+        "image": "singapura (9).jpeg",
+        "rating": "<box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon> <box-icon type='solid' name='star' size='xs'></box-icon>",
+        "address": "Singapura",
+        "review": "<box-icon type='solid' name='badge-check' size='xs'></box-icon> 4/5 (1,500 Review)",
+        "price": "IDR 520.000"
+    }
+]
