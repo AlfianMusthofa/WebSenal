@@ -114,3 +114,8 @@ button:hover{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+.daftar-btn{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
