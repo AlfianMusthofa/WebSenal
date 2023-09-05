@@ -35,19 +35,19 @@ body {
     left: 0;
     right: 0;
     z-index: 999;
-    border-bottom: 1px solid #fff;
-    backdrop-filter: blur(4px);
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    background-color: #fff;
 }
 
 .header .logo {
     font-size: 20px;
-    color: #fff;
+    color: var(--main-theme-color);
     font-weight: bold;
 }
 
 .header .nav a {
     margin: 0 10px;
-    color: #fff;
+    color: var(--main-theme-color);
 }
 
 .header .nav .btn {
