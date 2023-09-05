@@ -57,9 +57,36 @@ body{
     transition: .4s;
 }
 .banner{
-    padding: 110px 0;
+    padding: 110px 0 0;
+    width: 100%;
+    height: 100vh;
 }
 .banner img{
     width: 100%;
+    height: auto;
+}
+.service {
+    padding: 0 7%;
+}
+.service .title {
+    text-align: center;
+}
+.service .title h3{
+    font-size: 24px;
+}
+.service .title p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.service .row {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service .row img {
+    width: 170px;
     height: auto;
 }
