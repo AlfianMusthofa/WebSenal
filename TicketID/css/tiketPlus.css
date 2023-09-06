@@ -32,10 +32,18 @@ body{
 .header .logo {
     font-size: 18px;
 }
-.header .links a{
+.header .links a,
+button{
     margin: 0 10px;
     color: black;
     font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.header .links button{
+    cursor: pointer;
 }
 .header .row:last-child{
     margin-top: 10px;
@@ -89,4 +97,15 @@ body{
 .service .row img {
     width: 170px;
     height: auto;
+}
+.dropdown {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 104px;
+    right: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
 }
