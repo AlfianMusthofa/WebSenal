@@ -45,8 +45,11 @@ button{
 .header .links button{
     cursor: pointer;
 }
-.header .row:last-child{
+.header .row{
     margin-top: 10px;
+}
+.header .row:first-child{
+    margin-top: 0;
 }
 .header .row input{
     font-family: 'Poppins', sans-serif;
