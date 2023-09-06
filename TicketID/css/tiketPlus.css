@@ -9,9 +9,12 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
+    transition: all 0.3s;
 }
 body{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .header{
     padding: 20px 7%;
@@ -21,7 +24,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 100;
     background-color: #fff;
 }
 .header .row{
@@ -106,9 +109,76 @@ button{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 104px;
-    right: 100px;
+    top: 110px;
+    right: 70px;
     padding: 20px;
     border-radius: 10px;
+    transition: 0.3s linear;
     display: none;
+}
+.dropdown.active {
+    display: flex;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+.banner-cs{
+    padding:70px 7% 0;
+}
+.banner-cs img {
+    width: 100%;
+    height: auto;
+}
+.sk {
+    padding: 0 12%;
+    margin-top: 50px;
+}
+.benefit {
+    padding: 0 12%;
+    margin-top: 50px;
+}
+.benefit .row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid red;
+}
+.benefit .row img {
+    max-width: 64px;
+    height: 64px;
+}
+.benefit .row p,
+span {
+    font-size: 14px;
+}
+.benefit .row p {
+    font-weight: 600;
+}
+.benefit .row-container {
+    margin-top: 10px;
+}
+
+.howto{
+    margin-top: 100px;
+    padding: 0 10%;
+}
+.howto .title {
+    text-align: center;
+}
+.howto .row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.howto .row img {
+    width: 247px;
+    height: 185px;
+}
+.howto .col {
+    max-width: 249px;
+}
+.howto .col .capt {
+    margin-top: 10px;
+    text-align: center;
 }

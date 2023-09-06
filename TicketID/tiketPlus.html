@@ -24,12 +24,12 @@
                 <a href="#">Villa & Apt.</a>
                 <a href="#">ToDo</a>
                 <a href="#">Kereta Api</a>
-                <button type="menu" class="btn active">More</button>
+                <div class="dropdown">
+                    <a href="#">Sewa mobil</a>
+                    <a href="#">Sewa mobil</a>
+                </div>
+                <button class="btn" id="btn">More</button>
             </div>
-        </div>
-        <div class="dropdown">
-            <a href="#">Sewa mobil</a>
-            <a href="#">Sewa mobil</a>
         </div>
     </div>
     <div class="banner">
@@ -52,5 +52,87 @@
             <a href="#"><img src="image/tiketPlus/gambar (6).png"></a>
         </div>
     </section>
+    <div class="banner-cs">
+        <a href="https://wa.me/085156003476/" target="_blank"><img src="image/tiketPlus/cs.webp" alt=""></a> 
+    </div>
+    <div class="sk">
+        <p>*Dengan menggunakan layanan tiket Plus Service, kamu mengerti dan menyetujui <a href="#">Syarat & Ketentuan</a> yang berlaku.</p>
+    </div>
+    <div class="benefit">
+        <div class="benefi-title">
+            <h3>Yang Akan Kamu Dapatkan dari ticket Plus Service</h3>
+        </div>
+        <div class="row-container">
+            <div class="row">
+                <img src="image/tiketPlus/benefit (2).png">
+                <div class="capt">
+                    <p class="title">Travel advisor pribadi</p>
+                    <span>Agen tiket Plus Service akan menjadi travel advisor yang membantumu memesan produk perjalanan, memberikan masukan, saran, dan menjawab setiap pertanyaanmu.</span>
+                </div>
+            </div>
+            <div class="row">
+                <img src="image/tiketPlus/benefit (1).png">
+                <div class="capt">
+                    <p class="title">Travel advisor pribadi</p>
+                    <span>Produk perjalanan yang kamu cari nggak ada di tiket.com? Tenang aja, sobat tiket! Kamu bakal dibantu oleh agen tiket Plus Service!</span>
+                </div>
+            </div>
+            <div class="row">
+                <img src="image/tiketPlus/benefit (1).png">
+                <div class="capt">
+                    <p class="title">Travel advisor pribadi</p>
+                    <span>Dapatkan Blibli Tiket Points untuk setiap transaksi produk transportasi, akomodasi, event, dan atraksi yang dilakukan melalui tiket Plus Service.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="howto">
+        <div class="title">
+            <h3>Cara Mendapatkan ticket Plus Service</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="image/tiketPlus/gambar (2).png">
+                <div class="capt">
+                    <p>1. Masuk dari homepage ticketID.com</p>
+                    <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="image/tiketPlus/gambar (2).png">
+                <div class="capt">
+                    <p>1. Masuk dari homepage ticketID.com</p>
+                    <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="image/tiketPlus/gambar (2).png">
+                <div class="capt">
+                    <p>1. Masuk dari homepage ticketID.com</p>
+                    <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="image/tiketPlus/gambar (2).png">
+                <div class="capt">
+                    <p>1. Masuk dari homepage ticketID.com</p>
+                    <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const btn = document.querySelector('#btn');
+        const dropdown = document.querySelector('.dropdown');
+        btn.addEventListener('click', function() {
+            dropdown.classList.toggle('active')
+        });
+        document.addEventListener('click', function(e){
+            if (!btn.contains(e.target) && !dropdown.contains(e.target)) {
+                nav.classList.remove('active');
+            }
+        });
+    </script>
 </body>
 </html>
