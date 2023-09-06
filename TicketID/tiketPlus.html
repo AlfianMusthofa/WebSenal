@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="row">
-            <input type="search" placeholder="Mau kemana?">
+            <input type="search" id="searchInput" placeholder="Mau kemana?">
             <div class="links">
                 <a href="#">Pesawat</a>
                 <a href="#">Hotel</a>
@@ -133,6 +133,18 @@
                 nav.classList.remove('active');
             }
         });
+
+        function changePlaceholder() {
+            const inputElement = document.querySelector('#searchInput');
+            const placeholders = ["Mau kemana?", "Ke Bali", "Ke Bandung"];
+            let counter = 0;
+
+            setInterval(() => {
+                inputElement.placeholder = placeholders[counter];
+                counter = (counter + 1) % placeholders.length;
+            }, 1000)
+        }
+        changePlaceholder();
     </script>
 </body>
 </html>

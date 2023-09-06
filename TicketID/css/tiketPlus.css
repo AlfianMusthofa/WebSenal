@@ -179,6 +179,7 @@ span {
     max-width: 249px;
 }
 .howto .col .capt {
+    padding: 0 3px;
     margin-top: 10px;
     text-align: center;
 }
