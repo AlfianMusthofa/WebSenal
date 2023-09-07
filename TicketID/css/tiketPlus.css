@@ -354,3 +354,29 @@ footer p{
 .copyright p {
     margin-left: 20px;
 }
+.arrow {
+    position: fixed;
+    top: 600px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    gap: 10px;
+}
+.arrow a{
+    padding: 8px;
+    background-color: var(--main-theme-color);
+    color: #fff;
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+}
+.arrow .page a{
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    color: var(--font-color);
+}
