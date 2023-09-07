@@ -59,7 +59,7 @@
         <p>*Dengan menggunakan layanan tiket Plus Service, kamu mengerti dan menyetujui <a href="#">Syarat & Ketentuan</a> yang berlaku.</p>
     </div>
     <div class="benefit">
-        <div class="benefi-title">
+        <div class="benefit-title">
             <h3>Yang Akan Kamu Dapatkan dari ticket Plus Service</h3>
         </div>
         <div class="row-container">
@@ -95,28 +95,67 @@
                 <img src="image/tiketPlus/gambar (2).png">
                 <div class="capt">
                     <p>1. Masuk dari homepage ticketID.com</p>
-                    <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                    <div class="sub-capt">
+                        <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                    </div>
                 </div>
             </div>
             <div class="col">
                 <img src="image/tiketPlus/gambar (2).png">
                 <div class="capt">
-                    <p>1. Masuk dari homepage ticketID.com</p>
-                    <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                    <p>2. Baca info selengkapnya dulu</p>
+                    <div class="sub-capt">
+                        <span>Baca info yang tertera di halaman ini. Tap tombol "Hubungi sekarang" untuk chat dengan agen tiket Plus Service via WhatsApp.</span>
+                    </div>
                 </div>
             </div>
             <div class="col">
                 <img src="image/tiketPlus/gambar (2).png">
                 <div class="capt">
-                    <p>1. Masuk dari homepage ticketID.com</p>
-                    <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                    <p>3. Chat dengan agen tiket Plus Service</p>
+                    <div class="sub-capt">
+                        <span>Jawab pertanyaan yang diberikan melalui akun WhatsApp tiket Plus Service untuk terhubung dengan agen kami. Pastikan ada centang hijau pada nama akunnya, ya!</span>
+                    </div>
                 </div>
             </div>
             <div class="col">
                 <img src="image/tiketPlus/gambar (2).png">
                 <div class="capt">
-                    <p>1. Masuk dari homepage ticketID.com</p>
-                    <span>Masuk ke halaman tiket Plus Service dari menu yang tersedia di homepage aplikasi tiket.com.</span>
+                    <p>4. Selamat menikmati tiket Plus Service</p>
+                    <div class="sub-capt">
+                        <span>Yuk, pakai tiket Plus Service dan nikmati benefit-nya. Nggak perlu repot lagi deh buat rencanain perjalanan!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="warning">
+        <h3>Waspada!</h3>
+        <div class="capt">
+            <p>Hati-hati penipuan yang mengatasnamakan tiket Plus Service dari tiket.com. Pastikan ada centang hijau di akun WhatsApp tiket Plus Service sebelum memulai percakapan dan bertransaksi.</p>
+        </div>
+        <div class="cp">
+            <h3>Kontak Resmi ticket Plus Service</h3>
+            <p>Nomor WhatsApp: +6285156003476</p>
+        </div>
+        <div class="sub-warn">
+            <p>Transaksi yang dilakukan dengan akun WhatsApp di luar nomor yang tertera di atas bukan tanggung jawab tiket Plus Service tiket.com. Cek <a href="#">syarat dan ketentuan ticketPlus Service</a></p>
+        </div>
+    </div>
+
+    <div class="sk-card">
+        <div class="col">
+            <div class="box">
+                <img src="image/tiketPlus/sk.webp" alt="">
+            </div>
+            <div class="capt">
+                <h3>Syarat & Ketentuan ticket Plus Service</h3>
+                <div class="sub-capt">
+                    Yuk, baca Syarat & Ketentuan serta soal yang sering ditanya tentang tiket Plus Service!
+                </div>
+                <div class="kl-link">
+                    <a href="#">Baca S&K</a>
                 </div>
             </div>
         </div>
@@ -136,13 +175,13 @@
 
         function changePlaceholder() {
             const inputElement = document.querySelector('#searchInput');
-            const placeholders = ["Mau kemana?", "Ke Bali", "Ke Bandung"];
+            const placeholders = ["Staycation di Bandung", "Tur ke Bali", "Event di Jakarta"];
             let counter = 0;
 
             setInterval(() => {
                 inputElement.placeholder = placeholders[counter];
                 counter = (counter + 1) % placeholders.length;
-            }, 1000)
+            }, 1500)
         }
         changePlaceholder();
     </script>

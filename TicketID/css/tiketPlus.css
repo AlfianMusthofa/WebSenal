@@ -3,6 +3,7 @@
 
 :root {
     --main-theme-color : #007bff;
+    --font-color : #303135;
 }
 * {
     padding: 0;
@@ -38,7 +39,7 @@ body{
 .header .links a,
 button{
     margin: 0 10px;
-    color: black;
+    color: var(--font-color);
     font-size: 15px;
     font-family: 'Poppins',sans-serif;
     border: none;
@@ -87,10 +88,12 @@ button{
 }
 .service .title h3{
     font-size: 24px;
+    color: var(--font-color);
 }
 .service .title p {
     margin-top: 10px;
     font-size: 18px;
+    color: #71747D;
 }
 .service .row {
     margin-top: 20px;
@@ -150,8 +153,12 @@ button{
 span {
     font-size: 14px;
 }
+.benefit .benefit-title h3 {
+    color: var(--font-color);
+}
 .benefit .row p {
     font-weight: 600;
+    color: var(--font-color);
 }
 .benefit .row-container {
     margin-top: 10px;
@@ -163,12 +170,12 @@ span {
 }
 .howto .title {
     text-align: center;
+    color: var(--font-color);
 }
 .howto .row {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 15px;
 }
 .howto .row img {
@@ -179,7 +186,81 @@ span {
     max-width: 249px;
 }
 .howto .col .capt {
-    padding: 0 3px;
+    /* padding: 0 3px; */
     margin-top: 10px;
     text-align: center;
+}
+.howto .capt p{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--font-color);
+}
+.howto .capt .sub-capt {
+    margin-top: 10px;
+    color:  #71747D;
+    font-size: 14px;
+}
+
+.warning {
+    margin-top: 90px;
+    padding: 0 10%;
+}
+.warning h3 {
+    font-size: 18px;
+    color: var(--font-color);
+}
+.warning .capt {
+    margin-top: 14px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.warning .cp {
+    margin-top: 14px;
+}
+.warning .cp p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.warning .sub-warn {
+    margin-top: 14px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.warning .sub-warn a {
+    text-decoration: underline;
+}
+
+.sk-card{
+    padding: 0 10%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sk-card .col{
+    width: 247px;
+    text-align: center;
+}
+.sk-card .box img {
+    width: 56px;
+    height: 56px;
+}
+.sk-card .capt {
+    margin-top: 8px;
+}
+.sk-card .col h3{
+    font-size: 16px;
+    color: var(--font-color);
+}
+.sk-card .col .sub-capt{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #71747D;
+}
+.sk-card .kl-link {
+    margin: 10px;
+    font-weight: bold;
+}
+.sk-card .kl-link a{
+    color: var(--main-theme-color);
 }
