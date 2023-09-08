@@ -39,10 +39,8 @@ body {
     background-color: #fff;
 }
 
-.header .logo {
-    font-size: 20px;
-    color: var(--main-theme-color);
-    font-weight: bold;
+.header .logo img{
+    width: 120px;
 }
 
 .header .nav a {

@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="css/ideLiburan.css">
 </head>
 <body>
     <div class="header">
         <div class="row">
-            <a href="" class="logo">TicketID</a>
+            <a href="#" class="logo"><img src="image/Logo.png"></a>
             <div class="links">
                 <a href="#">Cek Pesanan</a>
                 <a href="loginPage.html">Masuk</a>
@@ -146,6 +147,69 @@
         </div>
     </footer>
 
+    <div class="social">
+        <h3>Follow me</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing<br>elit. Possimus, quidem?</p>
+        <div class="social-icon">
+            <a href="https://www.facebook.com/alfian.mustofa.984/" target="_blank"><img src="image/socials/square-facebook.svg"></a>
+            <a href="#"><img src="image/socials/square-x-twitter.svg"></a>
+            <a href="#"><img src="image/socials/square-instagram.svg"></a>
+            <a href="#"><img src="image/socials/square-google-plus.svg"></a>
+        </div>
+        <div class="cpr">
+            <img src="image/socials/copyright-regular.svg">
+            <span>tiket.com - 2023 Alfian Musthofa</span>
+        </div>
+    </div>
+
+    <div class="more">
+        <div class="arrow" id="cta"><box-icon name='chevron-left'></box-icon></div>
+        <div class="socials" id="socials">
+            <a href="#"><box-icon type='logo' name='facebook-circle'></box-icon></a>
+            <a href="#"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+        </div>
+    </div>
+
     <script>feather.replace()</script>
+
+    <script>
+        const btn = document.querySelector('#btn');
+        const dropdown = document.querySelector('.dropdown');
+        btn.addEventListener('click', function() {
+            dropdown.classList.toggle('active')
+        });
+        document.addEventListener('click', function(e){
+            if (!btn.contains(e.target) && !dropdown.contains(e.target)) {
+                nav.classList.remove('active');
+            }
+        });
+
+        function changePlaceholder() {
+            const inputElement = document.querySelector('#searchInput');
+            const placeholders = ["Staycation di Bandung", "Tur ke Bali", "Event di Jakarta"];
+            let counter = 0;
+
+            setInterval(() => {
+                inputElement.placeholder = placeholders[counter];
+                counter = (counter + 1) % placeholders.length;
+            }, 1500)
+        }
+        changePlaceholder();
+
+        const button = document.querySelector('#cta');
+        const socials = document.querySelector('.socials');
+
+        button.addEventListener('click', function() {
+            socials.classList.toggle('active');
+            button.classList.toggle('active');
+        });
+
+        document.addEventListener('click', function(e) {
+            if(!socials.contains(e.target) && !button.contains(e.target)){
+                socials.classList.remove('active');
+                button.classList.remove('active');
+            }
+        })
+    </script>
 </body>
 </html>
