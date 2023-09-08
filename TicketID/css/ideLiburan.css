@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&family=Satisfy&display=swap');
+
+:root {
+    --main-theme-color : #007bff;
+    --font-color : #303135;
+    --font-color-grey : #71747D;
+    --hover-main-color : #429dff; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: all 0.3s;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    padding: 20px 7%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+.header .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    font-size: 18px;
+}
+.header .links a,
+button{
+    margin: 0 10px;
+    color: var(--font-color);
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.header .links button{
+    cursor: pointer;
+}
+.header .row{
+    margin-top: 10px;
+}
+.header .row:first-child{
+    margin-top: 0;
+}
+.header .row input{
+    font-family: 'Poppins', sans-serif;
+    width: 350px;
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--main-theme-color);
+}
+.header #daftar {
+    padding: 6px 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--main-theme-color);
+    transition: .4s;
+}
+.header #daftar:hover {
+    background-color: var(--hover-main-color);
+}
+
+.kota{
+    padding: 0 7%;
+    margin-top: 120px;
+}
+.kota .title,
+.luarNegeri .title{
+    color: var(--font-color);
+}
+.kota .title p,
+.luarNegeri .title p{
+    color: var(--font-color-grey);
+    font-size: 15px;
+    margin-top: 4px;
+}
+.kota .row,
+.luarNegeri .row {
+    margin-top: 15px;
+    overflow: hidden;
+    display: flex;
+    gap: 15px;
+    position: relative;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+}
+.kota .row img,
+.luarNegeri .row img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.banner{
+    margin-top: 50px;
+    padding: 0 7%;
+}
+.banner h3{
+    color: var(--font-color);
+}
+.banner p{
+    color: var(--font-color-grey);
+    font-size: 15px;
+}
+.banner img{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.luarNegeri{
+    padding: 0 7%;
+    margin-top: 50px;
+}
+footer {
+    margin-top: 50px;
+    padding: 20px 7%;
+    color: var(--font-color);
+    border-top: 1px solid var(--font-color-grey);
+}
+
+footer .footer-con{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    border-bottom: 1px dashed var(--border-radius-color);
+    padding: 20px 0;
+}
+
+footer .footer-con .box{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-con .box h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+footer .footer-con .box .message,
+.mail, .phone {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer .footer-con .box p{
+    margin-left: 9px;
+}
+
+footer .footer-con .box a{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #000;
+}
+footer .footer-con .box a:hover {
+    color: var(--main-theme-color);
+}
+
+footer p{
+    font-size: 15px;
+}
