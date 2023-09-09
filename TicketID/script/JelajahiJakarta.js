@@ -22,9 +22,27 @@ $(document).ready(function() {
                             <h3>${data.price}</h3>
                         </div>
                     </div>
+                    <div class="pp">
+                        <p>SEKALI JALAN</p>
+                    </div>
+                    <div class="disc">
+                        <p>Domestic Deals</p>
+                    </div>
                 </div>
             </a>`);
             });
         });
     });
 });
+
+function changePlaceholder() {
+            const inputElement = document.querySelector('#searchInput');
+            const placeholders = ["Staycation di Bandung", "Tur ke Bali", "Event di Jakarta"];
+            let counter = 0;
+
+            setInterval(() => {
+                inputElement.placeholder = placeholders[counter];
+                counter = (counter + 1) % placeholders.length;
+            }, 1500)
+        }
+        changePlaceholder();

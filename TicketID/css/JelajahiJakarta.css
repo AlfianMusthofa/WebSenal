@@ -119,6 +119,7 @@ button{
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 .penerbangan .card .caption{
     padding: 8px;
@@ -167,5 +168,40 @@ button{
     color: var(--font-color-grey);
 }
 .penerbangan .harga h3{
+    font-size: 16px;
     color: var(--price-color);
+}
+.penerbangan .pp{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 2px 6px;
+    border-radius: 5px;
+    color: var(--font-color);
+}
+.penerbangan .disc {
+    position: absolute;
+    top: 118px;
+    right: 1px;
+    font-size: 12px;
+    background-color: var(--price-color);
+    padding: 3px 7px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+/* TRANSPORT */
+.transport {
+    margin-top: 50px;
+    padding: 0 7%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.transport img {
+    width: 346px;
 }
