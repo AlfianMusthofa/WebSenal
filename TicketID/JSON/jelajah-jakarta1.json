@@ -1,0 +1,92 @@
+[
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Medan -> Jakarta",
+        "date" : "11 Sep 2023",
+        "maskapai-image" : "maskapai (5).png",
+        "maskapai-name" : "Garuda Indonesia",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.600.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Surabaya -> Jakarta",
+        "date" : "11 Sep 2023",
+        "maskapai-image" : "maskapai (5).png",
+        "maskapai-name" : "Garuda Indonesia",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Balikpapan -> Jakarta",
+        "date" : "02 Okt 2023",
+        "maskapai-image" : "maskapai (3).png",
+        "maskapai-name" : "Super Air Jet",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Pangkalpinang -> Jakarta",
+        "date" : "25 Sep 2023",
+        "maskapai-image" : "maskapai (1).png",
+        "maskapai-name" : "Citilink",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Palembang -> Jakarta",
+        "date" : "13 Sep 2023",
+        "maskapai-image" : "maskapai (5).png",
+        "maskapai-name" : "Garuda Indonesia",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Makassar -> Jakarta",
+        "date" : "12 Sep 2023",
+        "maskapai-image" : "maskapai (6).png",
+        "maskapai-name" : "Sriwijaya Air",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Denpasar -> Jakarta",
+        "date" : "12 Sep 2023",
+        "maskapai-image" : "maskapai (7).jpeg",
+        "maskapai-name" : "TransNusa",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Makassar -> Jakarta",
+        "date" : "12 Sep 2023",
+        "maskapai-image" : "maskapai (6).png",
+        "maskapai-name" : "Sriwijaya Air",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Padang -> Jakarta",
+        "date" : "12 Sep 2023",
+        "maskapai-image" : "maskapai (4).png",
+        "maskapai-name" : "Pelita Air",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    },
+    {
+        "image" : "tujuanpesawat.png",
+        "destination" : "Banjarmasin -> Jakarta",
+        "date" : "12 Sep 2023",
+        "maskapai-image" : "maskapai (1).png",
+        "maskapai-name" : "Citilink",
+        "class" : "Ekonomi",
+        "price" : "IDR 1.300.000"
+    }
+]
