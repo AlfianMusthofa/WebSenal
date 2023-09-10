@@ -1,0 +1,30 @@
+[
+    {
+        "image" : "nginep (1).jpeg",
+        "name" : "Hotel Jakarta",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Pusat",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (1).jpeg",
+        "name" : "Hotel Jakarta",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Pusat",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (1).jpeg",
+        "name" : "Hotel Jakarta",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    }
+
+]

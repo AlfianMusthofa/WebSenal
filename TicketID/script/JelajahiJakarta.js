@@ -35,6 +35,43 @@ $(document).ready(function() {
     });
 });
 
+const num = [2];
+
+$(document).ready(function() {
+    num.forEach(function(num) {
+        $.getJSON('JSON/jelajah-jakarta'+ num + '.json', function(data) {
+            $.each(data, function(i, data) {
+                $('#JelajahiJakarta'+ num).append(`<a href="#">
+                <div class="card">
+                    <img src="image/Jelajahi Jakarta/${data.image}">
+                    <div class="caption">
+                        <div class="name">
+                            <h3>${data.name}</h3>
+                        </div>
+                        <div class="rating">
+                            <div class="star-img">
+                                ${data.rating}
+                            </div>
+                            <p class="address">${data.address}</p>
+                        </div>
+                        <div class="review">
+                            <i class="fa-solid fa-award"></i>
+                            <p>${data.review}</p>
+                        </div>
+                        <div class="price">
+                            <p>${data ["last-price"]}</p>
+                            <h3>${data ["new-price"]}</h3>
+                        </div>
+                    </div>
+                </div>
+            </a>`);
+            });
+        });
+    });
+});
+
+
+
 function changePlaceholder() {
             const inputElement = document.querySelector('#searchInput');
             const placeholders = ["Staycation di Bandung", "Tur ke Bali", "Event di Jakarta"];
