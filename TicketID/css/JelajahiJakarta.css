@@ -193,7 +193,6 @@ button{
     border-bottom-left-radius: 5px;
 }
 
-
 /* TRANSPORT */
 .transport {
     margin-top: 50px;
@@ -204,4 +203,13 @@ button{
 }
 .transport img {
     width: 346px;
+}
+
+/* NGINEP */
+.nginep{
+    padding: 0 7%;
+    margin-top: 50px;
+}
+.nginep .row {
+    margin-top: 10px;
 }
