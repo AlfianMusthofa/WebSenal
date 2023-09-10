@@ -1,10 +1,10 @@
 const fileNumbers = [1];
 
-$(document).ready(function() {
-    fileNumbers.forEach(function(number) {
-        $.getJSON('JSON/data-jakarta'+ number + '.json', function(data) {
-            $.each(data, function(i, data) {
-                $('#JelajahiJakarta'+ number).append(`<a href="#">
+$(document).ready(function () {
+    fileNumbers.forEach(function (number) {
+        $.getJSON('JSON/data-jakarta' + number + '.json', function (data) {
+            $.each(data, function (i, data) {
+                $('#JelajahiJakarta' + number).append(`<a href="#">
                 <div class="card">
                     <img src="image/Jelajahi Jakarta/${data.image}">
                     <div class="caption">
@@ -36,8 +36,8 @@ $(document).ready(function() {
 });
 
 
-$.getJSON('JSON/data-jakarta2.json', function(data) {
-    $.each(data, function(i, data) {
+$.getJSON('JSON/data-jakarta2.json', function (data) {
+    $.each(data, function (i, data) {
         $('#JelajahiJakarta2').append(`<a href="#">
         <div class="card">
             <img src="image/Jelajahi Jakarta/${data.image}">
@@ -56,8 +56,8 @@ $.getJSON('JSON/data-jakarta2.json', function(data) {
                     <p>${data.review}</p>
                 </div>
                 <div class="price">
-                    <p>${data ["last-price"]}</p>
-                    <h3>${data ["new-price"]}</h3>
+                    <p>${data["last-price"]}</p>
+                    <h3>${data["new-price"]}</h3>
                 </div>
             </div>
         </div>
@@ -65,8 +65,8 @@ $.getJSON('JSON/data-jakarta2.json', function(data) {
     })
 });
 
-$.getJSON('JSON/data-jakarta3.json', function(data) {
-    $.each(data, function(i, data) {
+$.getJSON('JSON/data-jakarta3.json', function (data) {
+    $.each(data, function (i, data) {
         $('#jakarta3').append(`<a href="#">
         <div class="card">
             <img src="image/Jelajahi Jakarta/${data.image}">
@@ -89,13 +89,13 @@ $.getJSON('JSON/data-jakarta3.json', function(data) {
 })
 
 function changePlaceholder() {
-            const inputElement = document.querySelector('#searchInput');
-            const placeholders = ["Staycation di Bandung", "Tur ke Bali", "Event di Jakarta"];
-            let counter = 0;
+    const inputElement = document.querySelector('#searchInput');
+    const placeholders = ["Staycation di Bandung", "Tur ke Bali", "Event di Jakarta"];
+    let counter = 0;
 
-            setInterval(() => {
-                inputElement.placeholder = placeholders[counter];
-                counter = (counter + 1) % placeholders.length;
-            }, 1500)
-        }
-        changePlaceholder();
+    setInterval(() => {
+        inputElement.placeholder = placeholders[counter];
+        counter = (counter + 1) % placeholders.length;
+    }, 1500)
+}
+changePlaceholder();

@@ -1,12 +1,14 @@
 [
-    {
+    {   
+        "category" : "Atraksi",
         "image" : "tempat (1).jpeg",
         "name" : "Dunia fantasi Ancol",
         "address" : "Jakarta Utara",
         "review" : "4/5 (12.000 review)",
         "price" : "IDR 200.000"
     },
-    {
+    {   
+        "category" : "Atraksi",
         "image" : "tempat (2).jpeg",
         "name" : "Sea World Ancol",
         "address" : "Jakarta Utara",
@@ -14,6 +16,7 @@
         "price" : "IDR 200.000"
     },
     {
+        "category" : "Atraksi",
         "image" : "tempat (3).jpeg",
         "name" : "Trans Snow World",
         "address" : "Jakarta Utara",
@@ -21,6 +24,7 @@
         "price" : "IDR 200.000"
     },
     {
+        "category" : "Atraksi",
         "image" : "tempat (4).jpeg",
         "name" : "Dunia fantasy",
         "address" : "Jakarta Utara",
@@ -28,10 +32,171 @@
         "price" : "IDR 200.000"
     },
     {
+        "category" : "Atraksi",
         "image" : "tempat (5).jpeg",
         "name" : "Taman Safari Indonesia",
         "address" : "Jakarta Utara",
         "review" : "4/5 (2.000 review)",
         "price" : "IDR 200.000"
-    }
+    },   
+    {
+        "category" : "Tempat Bermain",
+        "image" : "bermain (1).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },   
+    {
+        "category" : "Tempat Bermain",
+        "image" : "bermain (2).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },   
+    {
+        "category" : "Tempat Bermain",
+        "image" : "bermain (3).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },   
+    {
+        "category" : "Tempat Bermain",
+        "image" : "bermain (4).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },   
+    {
+        "category" : "Tempat Bermain",
+        "image" : "bermain (5).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },  
+    {
+        "category" : "Tempat Bermain",
+        "image" : "bermain (6).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },   
+    {
+        "category" : "Tempat Bermain",
+        "image" : "bermain (7).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },   
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (1).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (2).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (3).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (4).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (5).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (6).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (7).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (8).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (9).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (10).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (11).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (12).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },    
+    {
+        "category" : "Spa & Kecantikan",
+        "image" : "sk (13).jpeg",
+        "name" : "Time Zone",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    }    
 ]

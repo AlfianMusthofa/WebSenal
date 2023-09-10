@@ -409,3 +409,6 @@ button{
 .destinasi-tempat .button:first-child {
     margin-left: 0;
 }
+.active {
+    color: var(--main-theme-color);
+}
