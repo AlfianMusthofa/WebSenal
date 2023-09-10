@@ -1,0 +1,37 @@
+[
+    {
+        "image" : "tempat (1).jpeg",
+        "name" : "Dunia fantasi Ancol",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (12.000 review)",
+        "price" : "IDR 200.000"
+    },
+    {
+        "image" : "tempat (2).jpeg",
+        "name" : "Sea World Ancol",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },
+    {
+        "image" : "tempat (3).jpeg",
+        "name" : "Trans Snow World",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },
+    {
+        "image" : "tempat (4).jpeg",
+        "name" : "Dunia fantasy",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    },
+    {
+        "image" : "tempat (5).jpeg",
+        "name" : "Taman Safari Indonesia",
+        "address" : "Jakarta Utara",
+        "review" : "4/5 (2.000 review)",
+        "price" : "IDR 200.000"
+    }
+]

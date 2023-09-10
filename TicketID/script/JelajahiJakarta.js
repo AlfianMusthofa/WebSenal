@@ -2,7 +2,7 @@ const fileNumbers = [1];
 
 $(document).ready(function() {
     fileNumbers.forEach(function(number) {
-        $.getJSON('JSON/jelajah-jakarta'+ number + '.json', function(data) {
+        $.getJSON('JSON/data-jakarta'+ number + '.json', function(data) {
             $.each(data, function(i, data) {
                 $('#JelajahiJakarta'+ number).append(`<a href="#">
                 <div class="card">
@@ -36,7 +36,7 @@ $(document).ready(function() {
 });
 
 
-$.getJSON('JSON/jelajah-jakarta2.json', function(data) {
+$.getJSON('JSON/data-jakarta2.json', function(data) {
     $.each(data, function(i, data) {
         $('#JelajahiJakarta2').append(`<a href="#">
         <div class="card">
@@ -65,7 +65,28 @@ $.getJSON('JSON/jelajah-jakarta2.json', function(data) {
     })
 });
 
-
+$.getJSON('JSON/data-jakarta3.json', function(data) {
+    $.each(data, function(i, data) {
+        $('#jakarta3').append(`<a href="#">
+        <div class="card">
+            <img src="image/Jelajahi Jakarta/${data.image}">
+            <div class="caption">
+                <h3 class="sub-title">${data.name}</h3>
+                <div class="address">
+                    <p>${data.address}</p>
+                </div>
+                <div class="review">
+                    <i class="fa-solid fa-award"></i>
+                    <p>${data.review}</p>
+                </div>
+                <div class="price">
+                    <h3>${data.price}</h3>
+                </div>
+            </div>
+        </div>
+    </a>`)
+    })
+})
 
 function changePlaceholder() {
             const inputElement = document.querySelector('#searchInput');
