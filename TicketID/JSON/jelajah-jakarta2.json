@@ -1,7 +1,7 @@
 [
     {
         "image" : "nginep (1).jpeg",
-        "name" : "Hotel Jakarta",
+        "name" : "Tamarin Hotel Wahid",
         "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
         "address" : "Jakarta Pusat",
         "review" : "4/5 (1.300 review)",
@@ -9,8 +9,8 @@
         "new-price" : "IDR 699.000"
     },
     {
-        "image" : "nginep (1).jpeg",
-        "name" : "Hotel Jakarta",
+        "image" : "nginep (2).jpeg",
+        "name" : "Ashley Tanah Abang",
         "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
         "address" : "Jakarta Pusat",
         "review" : "4/5 (1.300 review)",
@@ -18,8 +18,80 @@
         "new-price" : "IDR 699.000"
     },
     {
-        "image" : "nginep (1).jpeg",
-        "name" : "Hotel Jakarta",
+        "image" : "nginep (3).jpeg",
+        "name" : "Arthama Hotel",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (4).jpeg",
+        "name" : "Hotel Mulia Senayan",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (5).jpeg",
+        "name" : "Grandkemang Hotel",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (6).jpeg",
+        "name" : "Arosa Hotel Jakarta",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (7).jpeg",
+        "name" : "Holiday Inn Suites",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (8).jpeg",
+        "name" : "Holiday Inn Express",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (9).jpeg",
+        "name" : "Grand G7 Hotel",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (10).jpeg",
+        "name" : "Holiday Inn JIEXPO",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address" : "Jakarta Selatan",
+        "review" : "4/5 (1.300 review)",
+        "last-price" : "IDR 720.000",
+        "new-price" : "IDR 699.000"
+    },
+    {
+        "image" : "nginep (11).jpeg",
+        "name" : "ASTON Priority",
         "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
         "address" : "Jakarta Selatan",
         "review" : "4/5 (1.300 review)",
