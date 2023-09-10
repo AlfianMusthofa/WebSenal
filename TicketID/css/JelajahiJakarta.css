@@ -398,7 +398,7 @@ button{
     font-size: 14px;
     color: var(--price-color);
 }
-.destinasi-tempat .button {
+.destinasi-tempat .button1 {
     border: 1px solid var(--font-color-grey);
     font-size: 13px;
     padding: 5px 10px;
@@ -406,7 +406,7 @@ button{
     margin: 10px 4px;
     cursor: pointer;
 }
-.destinasi-tempat .button:first-child {
+.destinasi-tempat .button1:first-child {
     margin-left: 0;
 }
 .active {

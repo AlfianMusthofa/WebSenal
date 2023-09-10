@@ -88,6 +88,45 @@ $.getJSON('JSON/data-jakarta3.json', function (data) {
     })
 })
 
+$(document).ready(function() {
+    for (let i = 1; i <= 3; i++) { 
+        $('.button' + i).on('click', function() {
+            $('.button' + i).removeClass('active');
+            $(this).addClass('active');
+
+            let tempatName = $(this).html();
+
+            $.getJSON('JSON/data-jakarta3.json', function(data) {
+                let content = '';
+                $.each(data, function(j, data) {
+                    if (data.category == tempatName) {
+                        content += `<a href="#">
+                        <div class="card">
+                            <img src="image/Jelajahi Jakarta/${data.image}">
+                            <div class="caption">
+                                <h3 class="sub-title">${data.name}</h3>
+                                <div class="address">
+                                    <p>${data.address}</p>
+                                </div>
+                                <div class="review">
+                                    <i class="fa-solid fa-award"></i>
+                                    <p>${data.review}</p>
+                                </div>
+                                <div class="price">
+                                    <h3>${data.price}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>`
+                    }
+                });
+                
+                $('#jakarta3').html(content);
+            });
+        });
+    }
+});
+
 function changePlaceholder() {
     const inputElement = document.querySelector('#searchInput');
     const placeholders = ["Staycation di Bandung", "Tur ke Bali", "Event di Jakarta"];
