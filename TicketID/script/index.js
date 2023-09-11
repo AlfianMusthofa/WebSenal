@@ -69,27 +69,31 @@ document.addEventListener('click', function(e){
 //     });
 // });
 
-$(document).ready(function() {
-    for (let i = 1; i <= 3; i++) { 
-        $('.menu-button-hotel' + i).on('click', function() {
-            $('.menu-button-hotel' + i).removeClass('active');
-            $(this).addClass('active');
 
-            let cityName = $(this).html();
 
-            $.getJSON('JSON/data-tempat' + i + '.json', function(data) {
-                let content = '';
-                $.each(data, function(j, data) {
-                    if (data.city == cityName) {
-                        content += '<div class="card"><a href="#"><div class="card-images"><img src="image/tempat' + i + '/' + data.image + '"></div><div class="caption"><h3 class="hotel-name">' + data.name + '</h3><div class="starate">' + data.rating + '<p class="address">' + data.address + '</p></div><div class="review-caps">' + data.review + '</div><div class="price"><h3 class="price">' + data.price + '</h3></div></div></a></div>'
-                    }
-                });
+
+// MAINTAINCE STYLE
+// $(document).ready(function() {
+//     for (let i = 1; i <= 3; i++) { 
+//         $('.menu-button-hotel' + i).on('click', function() {
+//             $('.menu-button-hotel' + i).removeClass('active');
+//             $(this).addClass('active');
+
+//             let cityName = $(this).html();
+
+//             $.getJSON('JSON/data-tempat' + i + '.json', function(data) {
+//                 let content = '';
+//                 $.each(data, function(j, data) {
+//                     if (data.city == cityName) {
+//                         content += '<div class="card"><a href="#"><div class="card-images"><img src="image/tempat' + i + '/' + data.image + '"></div><div class="caption"><h3 class="hotel-name">' + data.name + '</h3><div class="starate">' + data.rating + '<p class="address">' + data.address + '</p></div><div class="review-caps">' + data.review + '</div><div class="price"><h3 class="price">' + data.price + '</h3></div></div></a></div>'
+//                     }
+//                 });
                 
-                $('#daftar-tempat' + i).html(content);
-            });
-        });
-    }
-});
+//                 $('#daftar-tempat' + i).html(content);
+//             });
+//         });
+//     }
+// });
 
 
 // MENDAPATKAN DATA DARI JSON
@@ -100,14 +104,17 @@ $(document).ready(function() {
 //     })
 // });
 
-const fileNumbers = [1, 2, 3];
 
-$(document).ready(function() {
-    fileNumbers.forEach(function(number) {
-        $.getJSON('JSON/data-tempat' + number + '.json', function(data) {
-            $.each(data, function(i, data) {
-                $('#daftar-tempat'+ number).append('<div class="card"><a href="#"><div class="card-images"><img src="image/tempat' + number + '/' + data.image + '"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>');
-            });
-        });
-    });
-});
+
+// MAINTAINCE STYLE
+// const fileNumbers = [1, 2, 3];
+
+// $(document).ready(function() {
+//     fileNumbers.forEach(function(number) {
+//         $.getJSON('JSON/data-tempat' + number + '.json', function(data) {
+//             $.each(data, function(i, data) {
+//                 $('#daftar-tempat'+ number).append('<div class="card"><a href="#"><div class="card-images"><img src="image/tempat' + number + '/' + data.image + '"></div><div class="caption"><h3 class="hotel-name">'+data.name+'</h3><div class="starate">'+data.rating+'<p class="address">'+data.address+'</p></div><div class="review-caps">'+data.review+'</div><div class="price"><h3 class="price">'+data.price+'</h3></div></div></a></div>');
+//             });
+//         });
+//     });
+// });

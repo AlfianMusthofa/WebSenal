@@ -95,6 +95,7 @@ $(document).ready(function() {
             $(this).addClass('active');
 
             let tempatName = $(this).html();
+            console.log(tempatName);
 
             $.getJSON('JSON/data-jakarta3.json', function(data) {
                 let content = '';
@@ -126,6 +127,8 @@ $(document).ready(function() {
         });
     }
 });
+
+
 
 function changePlaceholder() {
     const inputElement = document.querySelector('#searchInput');

@@ -3,6 +3,10 @@
 :root {
     --border-radius-color : #bfbfbf;
     --main-theme-color : #3399ff;
+    --font-color-grey : #71747D;
+    --hover-main-color : #429dff;
+    --price-color : #F15C59;
+    --font-color : #303135;
 }
 
 * {
@@ -259,21 +263,6 @@ body {
     margin-left: 0;
 }
 
-::-webkit-scrollbar{
-    height: 8px;
-}
-::-webkit-scrollbar-track{
-    background: #f1f1f1;
-
-}
-::-webkit-scrollbar-thumb{
-    background: #6e93f7;
-
-}
-::-webkit-scrollbar-thumb:hover{
-    background: #4070f4;
-}
-
 .hotel-container{
     margin: 10px 0;
     display: flex;
@@ -282,7 +271,7 @@ body {
     overflow-x: scroll;
     padding: 10px 0;
 }
-.hotel-container .card{
+/* .hotel-container .card{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -300,6 +289,11 @@ body {
 .hotel-container .card .caption{
     padding: 10px;
     font-size: 14px;
+}
+.hotel-container .card .caption h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--font-color);
 }
 .hotel-container .hotel-name{
     color: black;
@@ -322,9 +316,9 @@ body {
 }
 .hotel-container .price h3{
     margin-top: 20px;
-    color: red;
-    font-weight: 500;
-}
+    font-size: 20px;
+    color: var(--price-color);
+} */
 .hotel .lh{
     text-align: center;
     margin-top: 16px;
