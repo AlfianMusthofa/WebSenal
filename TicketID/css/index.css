@@ -202,6 +202,7 @@ body {
     color: #fff;
 }
 
+/* HOTEL STYLING */
 .hotel{
     padding: 40px 7%;
 }
@@ -266,59 +267,75 @@ body {
 .hotel-container{
     margin: 10px 0;
     display: flex;
-    gap: 21px;
+    gap: 20px;
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
     padding: 10px 0;
 }
-/* .hotel-container .card{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+.hotel .card {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
-.hotel-container .card-images{
-    height: 150px;
-    width: 210px;
-}
-.hotel-container .card img{
-    height: 100%;
-    width: 100%;
+.hotel .card img {
+    width: 197px;
+    height: 131px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
-.hotel-container .card .caption{
-    padding: 10px;
-    font-size: 14px;
+.hotel .caption {
+    padding: 8px;
 }
-.hotel-container .card .caption h3{
-    font-size: 14px;
+.hotel .hotel-name h3{
+    font-size: 13px;
     font-weight: 600;
     color: var(--font-color);
 }
-.hotel-container .hotel-name{
-    color: black;
-    font-size: 13px;
-    font-weight: 500;
-}
-.hotel-container .starate{
-    display: flex;
-    align-items: baseline;
-}
-.hotel-container .starate .address{
-    font-size: 11px;
-    margin-left: 5px;
-}
-.hotel-container .review-caps{
+.hotel .rating {
     display: flex;
     gap: 5px;
-    font-size: 12px;
-    align-items: baseline;
+    text-align: center;
+    margin-top: 8px;
 }
-.hotel-container .price h3{
+.hotel .star {
+    font-size: 10px;
+    color: var(--font-color);
+}
+.hotel .rating p{
+    font-size: 11px;
+    color: var(--font-color-grey);
+    font-weight: 500;
+}
+.hotel .review {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 4px;
+}
+.hotel .review .logo{
+    font-size: 12px;
+    color: var(--font-color);
+}
+.hotel .review p{
+    font-size: 11px;
+    color: var(--font-color-grey);
+    font-weight: 500;
+}
+.hotel .price {
     margin-top: 20px;
-    font-size: 20px;
+}
+.hotel .price p{
+    font-size: 12px;
+    color: var(--font-color-grey);
+    text-decoration: line-through;
+}
+.hotel .price h3{
+    font-size: 16px;
     color: var(--price-color);
-} */
+}
+
+
 .hotel .lh{
     text-align: center;
     margin-top: 16px;
