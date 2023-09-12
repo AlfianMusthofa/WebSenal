@@ -92,7 +92,11 @@ $(document).ready(function() {
     for (let i = 1; i <= 3; i++) { 
         $('.button' + i).on('click', function() {
             $('.button' + i).removeClass('active');
+            $('.button' + i).css('backgroundColor', 'transparent');
+            $('.button' + i).css('color', '#303135');
             $(this).addClass('active');
+            $(this).css('backgroundColor', '#4da3ff');
+            $(this).css('color', '#fff');
 
             let tempatName = $(this).html();
             console.log(tempatName);
