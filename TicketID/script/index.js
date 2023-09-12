@@ -44,7 +44,7 @@ document.addEventListener('click', function(e){
 
 
 $(document).ready(function() {
-    for (let i = 1; i <= 3; i++) { 
+    for (let i = 1; i <= 4; i++) { 
         $('.menu-button-hotel' + i).on('click', function() {
             $('.menu-button-hotel' + i).removeClass('active');
             $(this).addClass('active');
@@ -92,7 +92,7 @@ $(document).ready(function() {
 
 
 
-const fileNumbers = [1, 2, 3];
+const fileNumbers = [1, 2, 3, 4];
 $(document).ready(function() {
     fileNumbers.forEach(function(number) {
         $.getJSON('JSON/data-tempat' + number + '.json', function(data) {

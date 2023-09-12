@@ -1,0 +1,102 @@
+[
+    {
+        "city": "Singapura",
+        "name": "Universal Studios",
+        "image": "ln (1).png",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Singapura",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "Gardens by the Bay",
+        "image": "ln (2).png",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Singapura",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Singapura",
+        "name": "Van Gogh",
+        "image": "ln (1).jpeg",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Singapura",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Jepang",
+        "name": "Van Gogh",
+        "image": "jepang (1).jpeg",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jepang",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Jepang",
+        "name": "Van Gogh",
+        "image": "jepang (1).png",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jepang",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Jepang",
+        "name": "Van Gogh",
+        "image": "jepang (2).png",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jepang",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Jepang",
+        "name": "Van Gogh",
+        "image": "jepang (3).png",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jepang",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Jepang",
+        "name": "Van Gogh",
+        "image": "jepang (4).jpeg",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jepang",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Jepang",
+        "name": "Van Gogh",
+        "image": "jepang (5).jpeg",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jepang",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Jepang",
+        "name": "Van Gogh",
+        "image": "jepang (6).jpeg",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jepang",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    }
+]

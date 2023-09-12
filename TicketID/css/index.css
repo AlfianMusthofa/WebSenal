@@ -144,10 +144,16 @@ body {
 
 .content .title {
     margin-bottom: 10px;
+    line-height: 22px;
 }
 .content .title h3{
     letter-spacing: 1px;
     margin-bottom: 5px;
+    color: var(--font-color);
+}
+.content .title p {
+    color: var(--font-color-grey);
+    font-size: 15px;
 }
 
 .content .menu-button {
@@ -211,9 +217,11 @@ body {
 }
 .hotel .title h3{
     letter-spacing: 1px;
+    color: var(--font-color);
 }
 .hotel .title p{
     font-size: 15px;
+    color: var(--font-color-grey);
 }
 .hotel .menu-button {
     padding: 8px 16px;
@@ -255,13 +263,21 @@ body {
     cursor: pointer;
     background: transparent;
 }
+.hotel .menu-button-hotel1:first-child{
+    margin-left: 0;
+}
+.hotel .menu-button-hotel2:first-child{
+    margin-left: 0;
+}
+.hotel .menu-button-hotel3:first-child{
+    margin-left: 0;
+}
+.hotel .menu-button:first-child {
+    margin-left: 0;
+}
 .active {
     color: #1a75ff;
     border: 1px solid #1a75ff;
-}
-
-.hotel .menu-button:first-child {
-    margin-left: 0;
 }
 
 .hotel-container{
