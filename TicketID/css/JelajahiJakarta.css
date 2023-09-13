@@ -6,7 +6,8 @@
     --font-color-grey : #71747D;
     --hover-main-color : #429dff;
     --price-color : #F15C59;
-    --young-blue : #c0eaff;
+    --biru-muda : #cce6ff;
+    --border-radius-color : #bfbfbf;
 }
 
 * {
@@ -311,7 +312,7 @@ button{
     text-align: center;
 }
 .more-link a{
-    background-color: var(--young-blue);
+    background-color: var(--biru-muda);
     padding: 6px 25px;
     color: #fff;
     border-radius: 5px;
@@ -423,7 +424,7 @@ button{
     color: var(--price-color);
 }
 .destinasi-tempat .button1 {
-    border: 1px solid var(--font-color-grey);
+    border: 1px solid var(--border-radius-color);
     font-size: 13px;
     padding: 5px 10px;
     border-radius: 220px;
@@ -508,7 +509,6 @@ footer .footer-con{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 8px;
-    border-bottom: 1px dashed var(--border-radius-color);
     padding: 20px 0;
 }
 

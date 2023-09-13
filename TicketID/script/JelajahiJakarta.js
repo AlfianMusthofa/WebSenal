@@ -93,10 +93,10 @@ $(document).ready(function() {
         $('.button' + i).on('click', function() {
             $('.button' + i).removeClass('active');
             $('.button' + i).css('backgroundColor', 'transparent');
-            $('.button' + i).css('color', '#303135');
+            $('.button' + i).css('border', '1px solid #bfbfbf');
             $(this).addClass('active');
-            $(this).css('backgroundColor', '#4da3ff');
-            $(this).css('color', '#fff');
+            $(this).css('backgroundColor', '#cce6ff');
+            $(this).css('border', '1px solid #007bff');
 
             let tempatName = $(this).html();
             console.log(tempatName);
@@ -131,17 +131,3 @@ $(document).ready(function() {
         });
     }
 });
-
-
-
-function changePlaceholder() {
-    const inputElement = document.querySelector('#searchInput');
-    const placeholders = ["Staycation di Bandung", "Tur ke Bali", "Event di Jakarta"];
-    let counter = 0;
-
-    setInterval(() => {
-        inputElement.placeholder = placeholders[counter];
-        counter = (counter + 1) % placeholders.length;
-    }, 1500)
-}
-changePlaceholder();
