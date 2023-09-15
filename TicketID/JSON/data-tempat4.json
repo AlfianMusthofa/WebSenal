@@ -98,5 +98,255 @@
         "review": "4/5 (1,500 Review)",
         "last-price" : "IDR 599.000",
         "price": "IDR 350.000"
+    },
+    {
+        "city": "Bangkok",
+        "name": "Bangkok",
+        "image": "bangkok (1).jpeg",
+        "rating" : "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bangkok, Thailand",
+        "review": "4/5 (1,500 Review)",
+        "last-price" : "IDR 599.000",
+        "price": "IDR 350.000"
+    },
+    {
+        "city": "Bangkok",
+        "name": "Bangkok",
+        "image": "bangkok (2).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bangkok, Thailand",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Bangkok",
+        "name": "Bangkok",
+        "image": "bangkok (3).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bangkok, Thailand",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Bangkok",
+        "name": "Bangkok",
+        "image": "bangkok (4).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bangkok, Thailand",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Bangkok",
+        "name": "Bangkok",
+        "image": "bangkok (5).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bangkok, Thailand",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Bangkok",
+        "name": "Bangkok",
+        "image": "bangkok (6).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bangkok, Thailand",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Bangkok",
+        "name": "Bangkok",
+        "image": "bangkok (7).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bangkok, Thailand",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (1).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (2).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (3).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (4).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (5).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (6).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (7).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (8).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (9).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (10).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (11).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (12).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Hongkong",
+        "name": "Hongkong",
+        "image": "hongkong (13).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Hongkong",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Korea Selatan",
+        "name": "Korsel",
+        "image": "korsel (1).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Korea Selatan",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Korea Selatan",
+        "name": "Korsel",
+        "image": "korsel (2).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Korea Selatan",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Korea Selatan",
+        "name": "Korsel",
+        "image": "korsel (3).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Korea Selatan",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Korea Selatan",
+        "name": "Korsel",
+        "image": "korsel (1).png",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Korea Selatan",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "Korea Selatan",
+        "name": "Korsel",
+        "image": "korsel (2).png",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Korea Selatan",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
     }
 ]

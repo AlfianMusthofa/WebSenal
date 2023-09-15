@@ -234,7 +234,10 @@ body {
     cursor: pointer;
     background: transparent;
 }
-.hotel .menu-button-hotel1 {
+.hotel .menu-button-hotel1,
+.menu-button-hotel2,
+.menu-button-hotel3,
+.menu-button-hotel4 {
     padding: 8px 16px;
     border-radius: 16px;
     border: none;
@@ -244,35 +247,14 @@ body {
     cursor: pointer;
     background: transparent;
 }
-.hotel .menu-button-hotel2 {
-    padding: 8px 16px;
-    border-radius: 16px;
-    border: none;
-    outline: none;
-    border: 1px solid var(--border-radius-color);
-    margin-left: 5px;
-    cursor: pointer;
-    background: transparent;
-}
-.hotel .menu-button-hotel3 {
-    padding: 8px 16px;
-    border-radius: 16px;
-    border: none;
-    outline: none;
-    border: 1px solid var(--border-radius-color);
-    margin-left: 5px;
-    cursor: pointer;
-    background: transparent;
-}
-.hotel .menu-button-hotel1:first-child{
+
+.hotel .menu-button-hotel1:first-child,
+.menu-button-hotel2:first-child,
+.menu-button-hotel3:first-child,
+.menu-button-hotel4:first-child{
     margin-left: 0;
 }
-.hotel .menu-button-hotel2:first-child{
-    margin-left: 0;
-}
-.hotel .menu-button-hotel3:first-child{
-    margin-left: 0;
-}
+
 .hotel .menu-button:first-child {
     margin-left: 0;
 }
