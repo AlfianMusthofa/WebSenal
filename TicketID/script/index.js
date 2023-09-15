@@ -55,7 +55,7 @@ $(document).ready(function() {
                 let content = '';
                 $.each(data, function(j, data) {
                     if (data.city == cityName) {
-                        content += `<a href="#">
+                        content += `<a href="${data.link}">
                         <div class="card">
                             <img src="image/tempat${i}/${data.image}">
                             <div class="caption">
@@ -97,7 +97,7 @@ $(document).ready(function() {
     fileNumbers.forEach(function(number) {
         $.getJSON('JSON/data-tempat' + number + '.json', function(data) {
             $.each(data, function(i, data) {
-                $('#daftar-tempat'+ number).append(`<a href="#">
+                $('#daftar-tempat'+ number).append(`<a href="${data.link}">
                 <div class="card">
                     <img src="image/tempat${number}/${data.image}">
                     <div class="caption">
