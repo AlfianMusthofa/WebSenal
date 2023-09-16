@@ -8,6 +8,7 @@
     --price-color : #F15C59;
     --font-color : #303135;
     --font-secondary : #D8F2FF;
+    --biru-muda : #cce6ff;
 }
 
 * {
@@ -210,17 +211,21 @@ body {
 }
 
 /* HOTEL STYLING */
-.hotel{
+.hotel,
+.event{
     padding: 40px 7%;
 }
-.hotel .title{
+.hotel .title,
+.event .title{
     margin-bottom: 10px;
 }
-.hotel .title h3{
+.hotel .title h3,
+.event .title h3{
     letter-spacing: 1px;
     color: var(--font-color);
 }
-.hotel .title p{
+.hotel .title p,
+.event .title .p{
     font-size: 15px;
     color: var(--font-color-grey);
 }
@@ -260,10 +265,11 @@ body {
 }
 .active {
     color: #1a75ff;
-    border: 1px solid #1a75ff;
+    /* border: 1px solid #1a75ff; */
 }
 
-.hotel-container{
+.hotel-container,
+.event .row{
     margin: 10px 0;
     display: flex;
     gap: 20px;
@@ -333,12 +339,12 @@ body {
     font-size: 16px;
     color: var(--price-color);
 }
-
-
 .hotel .lh{
     text-align: center;
     margin-top: 16px;
 }
+
+
 
 .banner{
     padding: 20px 7%;

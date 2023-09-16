@@ -1,0 +1,102 @@
+[
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (1).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (2).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (3).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (4).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (5).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (6).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (7).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (8).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (9).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "main",
+        "name": "Main",
+        "image": "main (10).webp",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Jakarta Pusat",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    }
+]

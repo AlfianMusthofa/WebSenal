@@ -1,0 +1,92 @@
+[
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (1).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (2).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (3).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (4).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (5).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (6).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (7).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (8).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    },
+    {
+        "city": "atraksi",
+        "name": "Atraksi seru",
+        "image": "atraksi (9).jpeg",
+        "rating": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Bogor",
+        "review": "4/5 (1,500 Review)",
+        "last-price": "IDR 599.000",
+        "price": "IDR 520.000"
+    }
+]

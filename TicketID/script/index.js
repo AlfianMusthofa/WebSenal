@@ -44,10 +44,14 @@ document.addEventListener('click', function(e){
 
 
 $(document).ready(function() {
-    for (let i = 1; i <= 4; i++) { 
+    for (let i = 1; i <= 6; i++) { 
         $('.menu-button-hotel' + i).on('click', function() {
             $('.menu-button-hotel' + i).removeClass('active');
+            $('.menu-button-hotel' + i).css('backgroundColor', 'transparent');
+            $('.menu-button-hotel' + i).css('border', '1px solid #bfbfbf');
             $(this).addClass('active');
+            $(this).css('backgroundColor','#cce6ff');
+            $(this).css('border','1px solid #429dff');
 
             let cityName = $(this).html();
 
@@ -92,7 +96,7 @@ $(document).ready(function() {
 
 
 
-const fileNumbers = [1, 2, 3, 4];
+const fileNumbers = [1, 2, 3, 4, 5, 6];
 $(document).ready(function() {
     fileNumbers.forEach(function(number) {
         $.getJSON('JSON/data-tempat' + number + '.json', function(data) {
