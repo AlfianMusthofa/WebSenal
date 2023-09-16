@@ -221,11 +221,12 @@ body {
 }
 .hotel .title h3,
 .event .title h3{
+    font-size: 20px;
     letter-spacing: 1px;
     color: var(--font-color);
 }
 .hotel .title p,
-.event .title .p{
+.event .title p{
     font-size: 15px;
     color: var(--font-color-grey);
 }
@@ -289,7 +290,8 @@ body {
     border-top-left-radius: 7px;
     object-fit: cover;
 }
-.hotel .caption {
+.hotel .caption,
+.event .caption {
     padding: 8px;
 }
 .hotel .hotel-name h3{
@@ -344,7 +346,38 @@ body {
     margin-top: 16px;
 }
 
-
+/* EVENT PLACE */
+.event .card{
+    width: 197px;
+    color: var(--font-color);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.1);
+    border-radius: 7px;
+}
+.event .card img {
+    width: 197px;
+    height: 131px;
+    object-fit: cover;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.event .card .date {
+    font-size: 12px;
+    color: var(--font-color-grey);
+}
+.event .card .event-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+.event .card .address{
+    font-size: 12px;
+    color: var(--font-color-grey);
+    margin-top: 7px;
+}
+.event .card .price {
+    margin-top: 30px;
+    color: var(--price-color);
+    font-size: 15px;
+}
 
 .banner{
     padding: 20px 7%;

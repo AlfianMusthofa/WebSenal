@@ -131,3 +131,23 @@ $(document).ready(function() {
         });
     });
 });
+
+$(document).ready(function(){
+    $.getJSON('JSON/data-tempat7.json', function(data) {
+        $.each(data, function(i, data) {
+            $('#event-row').append(`<a href="#" class="">
+            <div class="card">
+                <img src="image/tempat7/${data.image}">
+                <div class="caption">
+                    <p class="date">${data.date}</p>
+                    <h3 class="event-name">${data.name}</h3>
+                    <p class="address">${data.address}</p>
+                    <div class="price">
+                        <h3>${data.price}</h3>
+                    </div>
+                </div>
+            </div>
+        </a>`)
+        })
+    })
+})
