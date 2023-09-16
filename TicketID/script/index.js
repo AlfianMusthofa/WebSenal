@@ -151,3 +151,36 @@ $(document).ready(function(){
         })
     })
 })
+
+$(document).ready(function() {
+    $.getJSON('JSON/data-tempat8.json', function(data){
+        $.each(data, function(i, data) {
+            $('#data-penerbangan').append(`<a href="#">
+            <div class="card">
+                <img src="image/tempat8/${data.image}">
+                <div class="caption">
+                    <p class="title">${data.destination}</p>
+                    <div class="details">
+                        <p class="tanggal">${data.date}</p>
+                        <div class="maskapai">
+                            <img src="image/tempat8/${data['maskapai-image']}">
+                            <p class="maskapai-name">${data['maskapai-name']}</p>
+                        </div>
+                        <p class="kelas">${data.class}</p>
+                    </div>
+                    <div class="harga">
+                        <p>Mulai dari</p>
+                        <h3>${data.price}</h3>
+                    </div>
+                </div>
+                <div class="pp">
+                    <p>PULANG-PERGI</p>
+                </div>
+                <div class="disc">
+                    <p>Inter Deals</p>
+                </div>
+            </div>
+        </a>`)
+        })
+    })
+})
