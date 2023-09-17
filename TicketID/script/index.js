@@ -184,3 +184,29 @@ $(document).ready(function() {
         })
     })
 })
+
+// $(document).ready(function() {
+//     $.getJSON('JSON/data-summary.json', function(data) {
+//         var html = ''; // Variabel untuk menyimpan HTML
+//         var itemsPerBox = 4; // Jumlah item per "box"
+
+//         for (var i = 0; i < data.length; i++) {
+//             // Buka div "box" setiap kali mencapai item pertama atau item kelipatan dari itemsPerBox
+//             if (i % itemsPerBox === 0) {
+//                 if (i > 0) {
+//                     html += '</div>'; // Tutup div sebelumnya (jika bukan item pertama)
+//                 }
+//                 html += '<div class="box">'; // Buka div "box" baru
+//             }
+
+//             // Tambahkan tautan ke dalam div saat ini
+//             html += '<a href="#">' + data[i].link + '</a>';
+//         }
+
+//         // Tutup div terakhir
+//         html += '</div>';
+
+//         // Tambahkan HTML ke elemen dengan id 'list-summary'
+//         $('#list-summary').html(html);
+//     });
+// });
