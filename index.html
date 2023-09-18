@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ticketID - Satu Aplikasi untuk Kebutuhan Liburanmu</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="image/miniicon.png">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://kit.fontawesome.com/707c864a21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="header">
+            <a href="#" class="logo"><img src="image/Logo.png"></a>
+            <div class="nav" id="nav">
+                <a href="#">Cek Pesanan</a>
+                <a href="loginPage.html">Masuk</a>
+                <a href="register.html" class="btn" id="daftar">Daftar</a>
+            </div>
+            <i data-feather="menu" id="menu"></i>
+        </div>
+        <div class="hero-text">
+            <div class="text">
+                <h3><span>Hey kamu,</span> mau kemana?</h3>
+                <input type="search" id="searchInput" placeholder="Mau liburan kemana?">
+                <div class="links">
+                    <div class="card">
+                        <a href=""><img src="/image/kereta.webp" alt="">Kereta</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/hotel.webp" alt="">Hotel</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/resort.webp" alt="">Villa</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/todo.webp" alt="">To Do</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/pswt.webp" alt="">Pesawat</a>
+                    </div>
+                    <div class="card">
+                        <a href=""><img src="/image/event.webp" alt="">Event</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="title">
+            <h3>Temukan destinasi menarik lainnya</h3>
+            <p>Jangan lewatkan destinasi-destinasi seru lainnya. Cek sekarang!</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button">Indonesia</button>
+            <button class="menu-button">Internasional</button>
+            <button class="menu-button">influencer</button>
+        </div>
+        <div class="image-container">
+            <div class="cards">
+                <a href="JelajahiJakarta.html"><img src="image/jakarta.webp"></a>
+            </div>
+            <div class="cards">
+                <a href="#"><img src="image/bali.webp" alt=""></a>
+            </div>
+            <div class="cards">
+                <img src="image/ntt.webp" alt="">
+            </div>
+            <div class="cards">
+                <img src="image/medan.webp" alt="">
+            </div>
+            <div class="cards">
+                <img src="image/papua.webp" alt="">
+            </div>
+        </div>
+        <div class="lh"><a href="ideLiburan.html">Lihat Semua</a></div>
+    </div>
+
+    <div class="penerbangan">
+        <div class="title">
+            <h3>Keluar negeri dengan harga special!</h3>
+            <p>Nikmati terbang ke berbagai destinasi internasional dengan harga special</p>
+        </div>
+        <div class="card-container" id="data-penerbangan"></div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Nginep di akomodasi pilihan!</h3>
+            <p>Mau nginep ditempat populer, terpercaya, dan punya review kece? Cek Preferred Partner Plus aja!</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button-hotel1">Bandung</button>
+            <button class="menu-button-hotel1">Bali</button>
+            <button class="menu-button-hotel1">Yogyakarta</button>
+            <button class="menu-button-hotel1">Semarang</button>
+            <button class="menu-button-hotel1">Jakarta</button>
+            <button class="menu-button-hotel1">Bogor</button>
+            <button class="menu-button-hotel1">Surabaya</button>
+            <button class="menu-button-hotel1">Lombok</button>
+        </div>
+        <div class="hotel-container" id="daftar-tempat1"></div>
+        <div class="lh"><a href="#">Lihat Semua</a></div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Nginep hemat di indonesia</h3>
+            <p>Cek hotel kece di kota-kota Indonesia dan nikmati diskonnya. Buat lepas penat nggak perlu jauh-jauh</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button-hotel2">Bandung</button>
+            <button class="menu-button-hotel2">Nusa Penida</button>
+            <button class="menu-button-hotel2">Jakarta</button>
+            <button class="menu-button-hotel2">Bali</button>
+            <button class="menu-button-hotel2">Yogyakarta</button>
+            <button class="menu-button-hotel2">Nusa Tenggara Timur</button>
+            <button class="menu-button-hotel2">Luxury Hotel</button>
+            <button class="menu-button-hotel2">Budget Hotel</button>
+        </div>
+        <div class="hotel-container" id="daftar-tempat2">
+        </div>
+        <div class="lh"><a href="#">Lihat Semua</a></div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Tidur nyenyak di luar negeri</h3>
+            <p>Bikin perjalanan makin nyaman dan tenang dengan nginep di hotel terbaik di luar negeri.</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button-hotel3">Singapura</button>
+            <button class="menu-button-hotel3">Bangkok</button>
+            <button class="menu-button-hotel3">Hongkong</button>
+            <button class="menu-button-hotel3">Genting Highlands</button>
+            <button class="menu-button-hotel3">New York</button>
+            <button class="menu-button-hotel3">Los Angeles</button>
+            <button class="menu-button-hotel3">Barcelona</button>
+        </div>
+        <div class="hotel-container" id="daftar-tempat3"></div>
+        <div class="lh"><a href="#">Lihat Semua</a></div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Ide petualangan di luar negeri</h3>
+            <p>Ada beragam aktivitas keren di berbagai negara yang harus kamu cobain, nih!</p>
+        </div>
+        <div class="menu">
+            <button class="menu-button-hotel4">Singapura</button>
+            <button class="menu-button-hotel4">Hongkong</button>
+            <button class="menu-button-hotel4">Jepang</button>
+            <button class="menu-button-hotel4">Korea Selatan</button>
+            <button class="menu-button-hotel4">Bangkok</button>
+        </div>
+        <div class="hotel-container" id="daftar-tempat4"></div>
+    </div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Rekomendasi atraksi seru buatmu</h3>
+            <p>Yuk, temukan atraksi ikonik di sekitarmu! Ada banyak diskon menanti</p>
+        </div>
+        <div class="hotel-container" id="daftar-tempat5"></div>
+    </div>
+
+    <div class="banner"><a href="tiketPlus.html"><img src="image/banne.webp" alt=""></a></div>
+
+    <div class="kota-indonesia">
+        <div class="title">
+            <h3>Mau jelajahi seluruh sudut kota? Bisaaa!</h3>
+            <p>Jadi lebih fleksibel keliling kota destinasi dengan sewa mobil lepas kunci.</p>
+        </div>
+        <div class="kota-container">
+            <div class="card-kota">
+                <a href="#">
+                    <div class="image-kota"><img src="image/kota/Bali.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                    <div class="image-kota"><img src="image/kota/surabaya.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                    <div class="image-kota"><img src="image/kota/jogja.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                    <div class="image-kota"><img src="image/kota/jakrata.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                    <div class="image-kota"><img src="image/kota/bndung.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                    <div class="image-kota"><img src="image/kota/medan.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                    <div class="image-kota"><img src="image/kota/bali2.webp" alt=""></div>
+                </a>
+            </div>
+            <div class="card-kota">
+                <a href="#">
+                    <div class="image-kota"><img src="image/kota/jogja2.webp" alt=""></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="panduan">
+        <div class="title">
+            <h3>Info & Panduan ringkas</h3>
+            <div class="row">
+                <div class="row-card" class="kp">
+                    <a href="#">
+                        <div class="row-image"><img src="image/panduan/p1.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class="kp">
+                    <a href="#">
+                        <div class="row-image"><img src="image/panduan/p2.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class="kp">
+                    <a href="#">
+                        <div class="row-image"><img src="image/panduan/p3.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class="kp">
+                    <a href="#">
+                        <div class="row-image"><img src="image/panduan/p4.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class="kp">
+                    <a href="#">
+                        <div class="row-image"><img src="image/panduan/p5.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card" class="kp">
+                    <a href="#">
+                        <div class="row-image"><img src="image/panduan/p6.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                        <div class="row-image" class="bp"><img src="image/panduan/b1.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                        <div class="row-image" class="bp"><img src="image/panduan/b2.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                        <div class="row-image" class="bp"><img src="image/panduan/b3.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                        <div class="row-image" class="bp"><img src="image/panduan/b4.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                        <div class="row-image" class="bp"><img src="image/panduan/b5.webp" alt=""></div>
+                    </a>
+                </div>
+                <div class="row-card">
+                    <a href="#">
+                        <div class="row-image" class="bp"><img src="image/panduan/b6.webp" alt=""></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner"><a href="#"><img src="image/banner.webp" alt=""></a></div>
+
+    <div class="hotel">
+        <div class="title">
+            <h3>Saatnya main bareng si kecil</h3>
+            <p>Cek pilihan tempat bermain yang seru untuk anak! Ssst, ada yang bisa buat orang dewasa juga.</p>
+        </div>
+        <div class="hotel-container" id="daftar-tempat6"></div>
+    </div>
+
+    <div class="event">
+        <div class="title">
+            <h3>Bosen? Cobain aktivitas ini, yuk!</h3>
+            <p>Isi harimu dengan rangkaian event terkini. Ajak temanmu seru-seruan bareng di sini!</p>
+        </div>
+        <div class="row" id="event-row"></div>
+    </div>
+
+    <div class="info">
+        <div class="info-container">
+            <div class="info-image"><img src="image/info.webp"></div>
+            <div class="info-caption">
+                <h3 class="info-title">Pesan Tiket dan Rencanain Liburan Jadi Gampang</h3>
+                <div class="sub-caption">
+                    <p class="sub-title">Mudahnya pesan tiket dan hotel</p>
+                    <span>Pesan tiket sekaligus hotel dengan mudah dan cepat. Tidak perlu risau, hanya dengan satu
+                        sentuhan jari, tiket dan hotel yang kamu butuhkan bisa didapatkan dengan mudah.</span>
+                </div>
+                <div class="sub-caption">
+                    <p class="sub-title">Banyak Pilihan Produk Terbaik.</p>
+                    <span>Ada banyak pilihan maskapai dengan rute terlengkap ke seluruh dunia. Tersedia juga banyak
+                        pilihan hotel di Asia. Kamu juga bisa cari tiket kereta ke berbagai rute, sewa mobil, dan pesan
+                        tiket hiburan.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-container">
+            <div class="info-caption">
+                <h3 class="info-title">Pesan Tiket dan Rencanain Liburan Jadi Gampang</h3>
+                <div class="sub-caption">
+                    <p class="sub-title">Banyak Promo Special</p>
+                    <span>Banyak promo untuk tiket & hotel kesayanganmu. Dapatkan diskon harga terbaik agar bujet
+                        liburan kamu semakin hemat. Tidak ada alasan lagi untuk menunda liburan kamu.</span>
+                </div>
+                <div class="sub-caption">
+                    <p class="sub-title">Benefit Tiket Blibli Ticket Reward</p>
+                    <span>Dapatkan benefit Blibli Tiket Rewards berupa Blibli Tiket Points yang bisa kamu tukarkan
+                        dengan diskon. Juga berbagai benefit eksklusif sesuai produk yang kamu beli!</span>
+                </div>
+            </div>
+            <div class="info-image"><img src="image/info2.webp"></div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-container">
+            <div class="info-image"><img src="image/info3.webp"></div>
+            <div class="info-caption">
+                <h3 class="info-title">Pesan Tiket dan Rencanain Liburan Jadi Gampang</h3>
+                <div class="sub-caption">
+                    <p class="sub-title">Mudahnya pesan tiket dan hotel</p>
+                    <span>Ingin pesan tiket pesawat murah? Kini hanya dengan satu kali sentuhan jari, Anda bisa langsung
+                        pesan tiket pesawat murah di tiket.com. tiket.com adalah pionir online travel agent (OTA) di
+                        Indonesia yang selalu memberikan inovasi handal untuk mempermudah Anda ketika pesan tiket
+                        pesawat online. Cari tiket pesawat online di tiket.com ke ribuan destinasi penerbangan domestik
+                        maupun internasional di seluruh dunia.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="paragr">
+        <div class="box">
+            <h3>Cicilan Mudah dan Simple</h3>
+            <p>Pesan tiket dan hotelmu sekarang, lalu cicil pembayarannya dengan sekali klik. Iya, semudah itu mencicil
+                di tiket.com! Program cicilan ini bisa kamu gunakan untuk membeli tiket pesawat, hotel, tiket hiburan,
+                dan sewa mobil. Mau bayar dalam waktu 3, 6, atau 12 bulan, semua tergantung pilihanmu! Program cicilan
+                ini bisa dinikmati oleh pemegang kartu bank yang telah berpartner dengan tiketID.</p>
+            <a href="#">SELENGKAPNYA</a>
+        </div>
+        <div class="box">
+            <h3>Cicilan Mudah dan Simple</h3>
+            <p>Kamu adalah prioritas kami! Karena itu, tiket.com bekerjasama dengan berbagai penyedia jasa transportasi,
+                jaringan hotel, sewa mobil, dan penyedia tiket hiburan untuk memastikan liburan kamu selalu nyaman dan
+                menyenangkan</p>
+            <a href="#">SELENGKAPNYA</a>
+        </div>
+    </section>
+    <section class="summary">
+        <h3>Rekomendasi Liburan untuk Kamu di TicketID!</h3>
+        <div class="summary-btn">
+            <button type="button" class="summary-button">Hotel</button>
+            <button type="button" class="summary-button">Villa</button>
+            <button type="button" class="summary-button">ToDo</button>
+            <button type="button" class="summary-button">Tiket Pesawat</button>
+            <button type="button" class="summary-button">Bali</button>
+            <button type="button" class="summary-button">Bandung</button>
+            <button type="button" class="summary-button">Jakarta</button>
+            <button type="button" class="summary-button">Yogyakarta</button>
+            <button type="button" class="summary-button">Jepang</button>
+            <button type="button" class="summary-button">Singapura</button>
+            <button type="button" class="summary-button">Apartment</button>
+            <button type="button" class="summary-button">Labuan Bajo</button>
+        </div>
+        <div class="list-container" id="list-summary">
+            <div class="box">
+                <a href="#">Padma Hotel Bandung</a>
+                <a href="#">The Langham Jakarta</a>
+                <a href="#">ASTON Anyer Beach Hotel</a>
+                <a href="#">Chevilly Resort & Camp</a>
+            </div>
+            <div class="box">
+                <a href="#">The Gaia Hotel Bandung</a>
+                <a href="#">The Apurva Kempinski Bali</a>
+                <a href="#">Fairmont Jakarta</a>
+                <a href="#">Hotel Mulia Senayan Jakarta</a>
+            </div>
+            <div class="box">
+                <a href="#">Pullman Ciawi</a>
+                <a href="#">Pullman Bandung Central</a>
+                <a href="#">Royal Tulip Gunung Geulis</a>
+                <a href="#">Park Hyatt Jakarta</a>
+            </div>
+            <div class="box">
+                <a href="#">InterContinental Bandung Dago</a>
+                <a href="#">Grand Hyatt Jakarta</a>
+                <a href="#">Damar Langit</a>
+                <a href="#">Hotel Indonesia Kempinski Jakarta</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-con">
+            <div class="box">
+                <h3 class="logo">TicketID</h3>
+                <div class="message">
+                    <i data-feather="message-circle"></i>
+                    <p>+62 851 5600 3476</p>
+                </div>
+                <div class="mail">
+                    <i data-feather="mail"></i>
+                    <p>alfian@info.id</p>
+                </div>
+                <div class="phone">
+                    <i data-feather="phone"></i>
+                    <p>+62 851 5600 3476</p>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Perusahaan</h3>
+                <a href="#">Blog</a>
+                <a href="#">Karier</a>
+                <a href="#">Korporasi</a>
+                <a href="#">Partner</a>
+                <a href="#">Blibli Ticket Reward</a>
+                <a href="#">Perlindungan</a>
+                <a href="#">Cicilan</a>
+            </div>
+            <div class="box">
+                <h3>Produk</h3>
+                <a href="#">Pesawat</a>
+                <a href="#">Villa</a>
+                <a href="#">Hotel</a>
+                <a href="#">To Do</a>
+                <a href="#">Kereta Api</a>
+                <a href="#">Sewa Mobil</a>
+                <a href="#">Event</a>
+            </div>
+            <div class="box">
+                <h3>Dukungan</h3>
+                <a href="#">Pusat Bantuan</a>
+                <a href="#">Pusat Booking</a>
+                <a href="#">Kebijakan Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+                <a href="#">Daftarkan Hotel Kamu</a>
+                <a href="#">Daftarkan Aktivitas/Event Kamu</a>
+                <a href="#">tiket CLEAN</a>
+                <a href="#">tiket FLEXI</a>
+            </div>
+            <div class="box">
+                <h3>Dapatkan Aplikasi TicketID</h3>
+                <a href="#"><img src="image/gp.webp" alt=""></a>
+                <a href="#"><img src="image/as.webp" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="social">
+        <h3>Follow me</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing<br>elit. Possimus, quidem?</p>
+        <div class="social-icon">
+            <a href="https://www.facebook.com/alfian.mustofa.984/" target="_blank"><img
+                    src="image/socials/square-facebook.svg"></a>
+            <a href="#"><img src="image/socials/square-x-twitter.svg"></a>
+            <a href="#"><img src="image/socials/square-instagram.svg"></a>
+            <a href="#"><img src="image/socials/square-google-plus.svg"></a>
+        </div>
+        <div class="cpr">
+            <img src="image/socials/copyright-regular.svg">
+            <span>tiket.com - 2023 Alfian Musthofa</span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="script/index.js"></script>
+    <script src="script/Global_Js.js"></script>
+    <script>feather.replace()</script>
+</body>
+
+</html>
