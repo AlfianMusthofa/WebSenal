@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&family=Satisfy&display=swap');
 
 :root {
-    --main-theme-color : #007bff;
-    --font-color : #303135;
-    --font-color-grey : #71747D;
-    --hover-main-color : #429dff;
-    --price-color : #F15C59;
-    --biru-muda : #cce6ff;
-    --border-radius-color : #bfbfbf;
+    --main-theme-color: #007bff;
+    --font-color: #303135;
+    --font-color-grey: #71747D;
+    --hover-main-color: #429dff;
+    --price-color: #F15C59;
+    --biru-muda: #cce6ff;
+    --border-radius-color: #bfbfbf;
 }
 
 * {
@@ -18,45 +18,54 @@
     scroll-behavior: smooth;
     transition: all 0.3s;
 }
-body{
+
+body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.header{
+
+.header {
     padding: 20px 7%;
-    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     font-family: 'Poppins', sans-serif;
     z-index: 100;
     background-color: #fff;
 }
-.header .row{
+
+.header .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header .logo img{
+
+.header .logo img {
     width: 120px;
 }
+
 .header .links a,
-button{
+button {
     margin: 0 10px;
     color: var(--font-color);
     font-size: 15px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     border: none;
     outline: none;
     background-color: transparent;
 }
-.header .links button{
+
+.header .links button {
     cursor: pointer;
 }
-.header .row{
+
+.header .row {
     margin-top: 10px;
 }
-.header .row:first-child{
+
+.header .row:first-child {
     margin-top: 0;
 }
-.header .row input{
+
+.header .row input {
     font-family: 'Poppins', sans-serif;
     width: 350px;
     padding: 7px 12px;
@@ -65,6 +74,7 @@ button{
     outline: none;
     border: 1px solid var(--main-theme-color);
 }
+
 .header #daftar {
     padding: 6px 16px;
     border-radius: 5px;
@@ -72,6 +82,7 @@ button{
     background-color: var(--main-theme-color);
     transition: .4s;
 }
+
 .header #daftar:hover {
     background-color: var(--hover-main-color);
 }
@@ -82,7 +93,8 @@ button{
     gap: 10px;
     position: relative;
 }
-.hero .img-big{
+
+.hero .img-big {
     width: 680px;
     height: 470px;
     object-fit: cover;
@@ -90,6 +102,7 @@ button{
     top: 0;
     left: 0;
 }
+
 .hero .image-coll {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -98,11 +111,13 @@ button{
     top: 0;
     right: 0;
 }
-.hero .image-coll img{
+
+.hero .image-coll img {
     width: 325px;
     height: 230px;
     object-fit: cover;
 }
+
 .navbar {
     padding: 20px 0;
     width: 1133px;
@@ -112,16 +127,19 @@ button{
     top: 0; */
     background-color: #fff;
 }
-.navbar a{
+
+.navbar a {
     margin: 0 10px;
     font-size: 16px;
     font-weight: 500;
     color: var(--font-color);
 }
-.navbar a:first-child{
+
+.navbar a:first-child {
     margin-left: 0;
 }
-.row-information{
+
+.row-information {
     margin: 20px auto 0 auto;
     width: 1133px;
     display: flex;
@@ -130,32 +148,39 @@ button{
     padding-bottom: 20px;
     border-bottom: 1px solid var(--border-radius-color);
 }
-.row-information .col:last-child{
+
+.row-information .col:last-child {
     text-align: end;
 }
+
 .row-information .col .category {
     display: flex;
     gap: 10px;
     align-items: center;
 }
-.row-information .col .category p{
+
+.row-information .col .category p {
     border: 1px solid var(--font-color);
     font-size: 12px;
     padding: 2px 6px;
     border-radius: 5px;
 }
+
 .row-information .col .star {
     font-size: 16px;
     color: var(--font-color);
 }
+
 .row-information .col .hotel-name {
     font-size: 28px;
     color: var(--font-color);
     margin-top: 6px;
 }
+
 .row-information .col {
     position: relative;
 }
+
 .row-information .col .review {
     display: flex;
     align-items: center;
@@ -163,35 +188,43 @@ button{
     margin-top: 6px;
     color: var(--font-color);
 }
+
 .col .review h3 {
     margin-left: -4px;
 }
+
 .col .review span {
     font-size: 13px;
     font-weight: 500;
     color: var(--font-color-grey);
 }
+
 .col .sub-review {
     margin-left: -7px;
     color: var(--font-color-grey);
 }
+
 .col .mulai-dari {
     font-size: 13px;
     color: var(--font-color-grey);
     font-weight: 500;
 }
+
 .row-information .col .price {
     color: var(--price-color);
     font-size: 20px;
 }
-.row-information .col .text-day{
+
+.row-information .col .text-day {
     font-size: 11px;
     color: var(--font-color-grey);
 }
+
 .row-information .col .cta {
     margin-top: 14px;
 }
-.row-information .col a{
+
+.row-information .col a {
     font-size: 13px;
     font-weight: 600;
     padding: 10px 15px;
@@ -199,10 +232,12 @@ button{
     color: #fff;
     border-radius: 5px;
 }
+
 .col a:hover {
     background-color: var(--hover-main-color);
 }
-.col .location{
+
+.col .location {
     display: flex;
     gap: 8px;
     font-size: 14px;
@@ -210,12 +245,14 @@ button{
     margin-top: 5px;
     align-items: center;
 }
-.col .location span{
+
+.col .location span {
     color: var(--font-color-grey);
     font-size: 13px;
     font-weight: 500;
     text-decoration: underline;
 }
+
 .row-login {
     margin: 0 auto;
     width: 1133px;
@@ -225,24 +262,29 @@ button{
     padding: 28px 0;
     border-bottom: 1px solid var(--border-radius-color);
 }
-.row-login .col img{
+
+.row-login .col img {
     width: 58px;
 }
-.row-login .col:first-child{
+
+.row-login .col:first-child {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.row-login .capt h3{
+
+.row-login .capt h3 {
     font-size: 17px;
     color: var(--font-color);
 }
-.row-login .capt p{
+
+.row-login .capt p {
     font-size: 14px;
     font-family: 400;
     color: var(--font-color-grey);
 }
-.row-login .cta a{
+
+.row-login .cta a {
     padding: 10px 15px;
     font-size: 14px;
     background-color: var(--biru-muda);
@@ -251,149 +293,324 @@ button{
     border-radius: 5px;
     transition: 0s;
 }
+
 .row-login .cta a:hover {
     background-color: #d6e9fc;
 }
+
 .benefit,
 .fasilitas,
 .lokasi,
-.kebijakan {
+.kebijakan,
+.tentang,
+.kamar {
     margin: 0 auto;
     width: 1133px;
     padding: 30px 0;
     border-bottom: 1px solid var(--border-radius-color);
 }
+
 .benefit h3,
 .fasilitas h3,
 .lokasi h3,
-.kebijakan .title {
+.kebijakan .title,
+.tentang h3,
+.kamar h3 {
     color: var(--font-color);
     font-size: 22px;
 }
+
 .benefit .row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 25px;
     row-gap: 30px;
 }
+
 .benefit .col img {
     width: 38px;
 }
+
 .benefit .col {
     display: flex;
     gap: 10px;
 }
-.benefit .capt h3{
+
+.benefit .capt h3 {
     font-size: 16px;
     color: var(--font-color);
 }
-.benefit .capt p{
+
+.benefit .capt p {
     font-size: 13px;
     color: var(--font-color-grey);
     font-weight: 500;
 }
+
 .fasilitas .row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     margin-top: 30px;
 }
+
 .fasilitas .box-content {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 16px;
 }
+
 .fasilitas .logo img {
     width: 24px;
     height: 24px;
 }
+
 .fasilitas .box-content p {
     font-size: 16px;
     color: var(--font-color-grey);
 }
+
 .lokasi .row {
     margin-top: 30px;
     display: flex;
     gap: 20px;
 }
+
 .lokasi .title {
     font-size: 16px;
     color: var(--font-color-grey);
 }
+
 .lokasi .sub-title {
     padding: 16px 0;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--border-radius-color);
 }
-.lokasi .sub-title h4{
+
+.lokasi .sub-title h4 {
     color: var(--font-color);
 }
-.lokasi .sub-title a{
+
+.lokasi .sub-title a {
     font-size: 15px;
     color: var(--main-theme-color);
     font-weight: 600;
 }
+
 .lokasi .location {
     margin-top: 16px;
 }
+
 .lokasi .location-content {
     display: flex;
     gap: 10px;
-    align-items: center; 
-    margin-bottom: 14px;  
+    align-items: center;
+    margin-bottom: 14px;
 }
+
 .lokasi .sub-location {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .lokasi .location img {
     width: 24px;
 }
+
 .lokasi .box-location {
     font-size: 15px;
 }
+
 .lokasi .box-location .lah {
     color: var(--font-color-grey);
 }
+
 .lokasi .jarak {
     color: var(--font-color);
 }
+
 .kebijakan .row {
     margin-top: 30px;
     display: flex;
 }
+
 .kebijakan .col-title {
     width: 850px;
     color: var(--font-color);
     font-size: 15px;
 }
+
 .kebijakan .time {
     display: flex;
     gap: 30px;
 }
-.kebijakan .sub-time p{
+
+.kebijakan .sub-time p {
     font-size: 13px;
     color: var(--font-color-grey);
     margin-bottom: 10px;
 }
-.kebijakan .sub-time h3{
+
+.kebijakan .sub-time h3 {
     font-size: 18px;
     font-weight: 600;
     color: var(--font-color);
     margin-bottom: 10px;
 }
-.kebijakan .caption{
+
+.kebijakan .caption {
     font-size: 15px;
     color: var(--font-color);
 }
-.kebijakan .col-title2{
+
+.kebijakan .col-title2 {
     width: 765px;
     color: var(--font-color);
     font-size: 15px;
 }
-.kebijakan .row2{
+
+.kebijakan .row2 {
     margin-bottom: 10px;
+}
+
+.tentang .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tentang .content {
+    margin-top: 30px;
+}
+.kamar .row {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.kamar .card-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.kamar .col {
+    width: 230px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.kamar img{
+    width: 230px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    object-fit: cover;
+}
+.kamar .content {
+    padding: 10px;
+}
+
+.kamar .content .box img,
+.box2 img{
+    width:20px;
+}
+.kamar .box {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-bottom: 1px solid var(--border-radius-color);
+    padding-bottom: 6px;
+}
+.kamar .box-content {
+    margin-bottom: 7px;
+}
+.kamar .box p,
+.box2 p{
+    color: var(--font-color-grey);
+    font-size: 14px;
+}
+.kamar .box2 {
+    margin-top: 10px;
+}
+.kamar .box-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.kamar .col2 {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    width: 100%;
+    height: auto;
+}
+.kamar .col2 .content {
+    padding: 10px;
+}
+.kamar .sub-title {
+    color: var(--font-color);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-radius-color);
+}
+.kamar .sub-title p{
+    font-size: 14px;
+    color: var(--font-color-grey);
+}
+.kamar .col2 .sub-row {
+    margin-top: 10px;
+}
+.kamar .col2 .box-content img {
+    width: 20px;
+}
+.kamar .col2 .box-content p{
+    font-size: 13px;
+    color: var(--font-color-grey);
+}
+.kamar .sub-row {
+    display: flex;
+    justify-content: space-between;
+}
+.kamar .col2 .sub-col:last-child {
+    text-align: end;
+}
+.kamar .col2 .kelas {
+    background-color: var(--price-color);
+    color: #fff;
+    width: 100px;
+}
+.kamar .col2 .hargaLama {
+    font-size: 14px;
+    color: var(--font-color-grey);
+    text-decoration: line-through;
+}
+.kamar .col2 .price {
+    color: var(--price-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+.kamar .col2 .kelas {
+    text-align: center;
+    font-size: 12px;
+    margin-left: auto;
+    padding: 4px 0;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+.kamar .col2 .informasi {
+    font-size: 12px;
+    color: var(--font-color-grey);
+}
+.kamar .col2 .cta {
+    margin-top: 20px;
+}
+.kamar .col2 .cta a {
+    background-color: var(--main-theme-color);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
 }
