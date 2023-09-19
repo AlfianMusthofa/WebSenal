@@ -1,0 +1,32 @@
+[
+    {
+        "image" : "kamar (1).jpeg",
+        "tipe" : "Kamar Premier Twin",
+        "lastPrice" : "IDR 5.000.000",
+        "roomSize" : "30m",
+        "breakfast" : "Sarapan tidak tersedia",
+        "guest" : "2 tamu",
+        "bed" : "1 King",
+        "price" : "IDR 1.100.000"
+    },
+    {
+        "image" : "kamar (1).jpeg",
+        "tipe" : "Kamar Premier Twin",
+        "lastPrice" : "IDR 5.000.000",
+        "roomSize" : "30m",
+        "breakfast" : "Sarapan tidak tersedia",
+        "guest" : "2 tamu",
+        "bed" : "1 King",
+        "price" : "IDR 1.100.000"
+    },
+    {
+        "image" : "kamar (1).jpeg",
+        "tipe" : "Kamar Premier Twin",
+        "lastPrice" : "IDR 5.000.000",
+        "roomSize" : "30m",
+        "breakfast" : "Sarapan tersedia",
+        "guest" : "2 tamu",
+        "bed" : "1 King",
+        "price" : "IDR 3.100.000"
+    }
+]

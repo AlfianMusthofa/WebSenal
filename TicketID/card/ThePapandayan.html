@@ -49,7 +49,7 @@
         <a href="#lokasi">Lokasi</a>
         <a href="#">Kebijakan Akomodasi</a>
         <a href="#">Tentang</a>
-        <a href="#">Kamar</a>
+        <a href="#kamar">Kamar</a>
     </div>
     <div class="row-information">
         <div class="col">
@@ -357,12 +357,12 @@
                 datar.</p>
         </div>
     </div>
-    <div class="kamar">
+    <div class="kamar" id="kamar">
         <div class="title">
             <h3>Tipe kamar dan harga</h3>
         </div>
-        <div class="row" id="tipekamar">
-            <div class="card-container">
+        <div class="row" id="daftarKamar">
+            <!-- <div class="card-container">
                 <div class="col">
                     <img src="../image/CardCollection/ThePapandayan/tp1.webp" alt="">
                     <div class="content">
@@ -372,15 +372,15 @@
                         </div>
                         <div class="box2">
                             <div class="box-content">
-                                <img src="../image/CardCollection/fasilitas (7).png" alt="">
+                                <img src="../image/CardCollection/fasilitas (6).png" alt="">
                                 <p>AC</p>
                             </div>
                             <div class="box-content">
-                                <img src="../image/CardCollection/fasilitas (7).png" alt="">
+                                <img src="../image/CardCollection/fasilitas (13).png" alt="">
                                 <p>Bathub</p>
                             </div>
                             <div class="box-content">
-                                <img src="../image/CardCollection/fasilitas (7).png" alt="">
+                                <img src="../image/CardCollection/fasilitas (11).png" alt="">
                                 <p>WiFi Gratis</p>
                             </div>
                         </div>
@@ -395,11 +395,11 @@
                         <div class="sub-row">
                             <div class="sub-col">
                                 <div class="box-content">
-                                    <img src="../image/CardCollection/fasilitas (7).png" alt="">
+                                    <img src="../image/CardCollection/fasilitas (11).png" alt="">
                                     <p>WiFi Gratis</p>
                                 </div>
                                 <div class="box-content">
-                                    <img src="../image/CardCollection/fasilitas (7).png" alt="">
+                                    <img src="../image/CardCollection/fasilitas (14).png" alt="">
                                     <p>1 King</p>
                                 </div>
                                 <div class="box-content">
@@ -407,15 +407,17 @@
                                     <p>Sarapan tidak tersedia</p>
                                 </div>
                                 <div class="box-content">
-                                    <img src="../image/CardCollection/fasilitas (7).png" alt="">
+                                    <img src="../image/CardCollection/fasilitas (15).png" alt="">
                                     <p>2 tamu</p>
                                 </div>
                             </div>
                             <div class="sub-col">
                                 <p class="kelas">Luxury Stay</p>
-                                <p class="hargaLama">IDR 1.400.000</p>
-                                <h3 class="price">IDR 1.200.000</h3>
-                                <p class="informasi">/kamar/malam (termasuk pajak)</p>
+                                <div class="sub-col-con">
+                                    <p class="hargaLama">IDR 1.400.000</p>
+                                    <h3 class="price">IDR 1.200.000</h3>
+                                    <p class="informasi">/kamar/malam (termasuk pajak)</p>
+                                </div>
                                 <div class="cta">
                                     <a href="#">Pesan</a>
                                 </div>
@@ -423,11 +425,85 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
     <script src="../script/Global_Js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $.getJSON('../JSON/data-card/thepapandayan.json', function(data) {
+                $.each(data, function(i, data) {
+                    $('#daftarKamar').append(`<div class="card-container">
+                <div class="col">
+                    <img src="../image/CardCollection/ThePapandayan/${data.image}" alt="">
+                    <div class="content">
+                        <div class="box">
+                            <img src="../image/CardCollection/fasilitas (7).png" alt="">
+                            <p>${data.roomSize}</p>
+                        </div>
+                        <div class="box2">
+                            <div class="box-content">
+                                <img src="../image/CardCollection/fasilitas (6).png" alt="">
+                                <p>AC</p>
+                            </div>
+                            <div class="box-content">
+                                <img src="../image/CardCollection/fasilitas (13).png" alt="">
+                                <p>Bathub</p>
+                            </div>
+                            <div class="box-content">
+                                <img src="../image/CardCollection/fasilitas (11).png" alt="">
+                                <p>WiFi Gratis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <div class="content">
+                        <div class="sub-title">
+                            <h4>${data.tipe}</h4>
+                            <p>Tidak bisa refund & Reschedule</p>
+                        </div>
+                        <div class="sub-row">
+                            <div class="sub-col">
+                                <div class="box-content">
+                                    <img src="../image/CardCollection/fasilitas (11).png" alt="">
+                                    <p>WiFi Gratis</p>
+                                </div>
+                                <div class="box-content">
+                                    <img src="../image/CardCollection/fasilitas (14).png" alt="">
+                                    <p>1 King</p>
+                                </div>
+                                <div class="box-content">
+                                    <img src="../image/CardCollection/fasilitas (7).png" alt="">
+                                    <p>${data.breakfast}</p>
+                                </div>
+                                <div class="box-content">
+                                    <img src="../image/CardCollection/fasilitas (15).png" alt="">
+                                    <p>${data.guest}</p>
+                                </div>
+                            </div>
+                            <div class="sub-col">
+                                <p class="kelas">Luxury Stay</p>
+                                <div class="sub-col-con">
+                                    <p class="hargaLama">${data.lastPrice}</p>
+                                    <h3 class="price">${data.price}</h3>
+                                    <p class="informasi">/kamar/malam (termasuk pajak)</p>
+                                </div>
+                                <div class="cta">
+                                    <a href="#">Pesan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>`)
+                })
+            })
+        })
+    </script>
 </body>
 
 </html>

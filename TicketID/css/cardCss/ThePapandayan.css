@@ -547,7 +547,6 @@ button {
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
     width: 100%;
-    height: auto;
 }
 .kamar .col2 .content {
     padding: 10px;
@@ -605,8 +604,11 @@ button {
     font-size: 12px;
     color: var(--font-color-grey);
 }
+.kamar .col2 .sub-col-con {
+    margin: 10px 0;
+}
 .kamar .col2 .cta {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .kamar .col2 .cta a {
     background-color: var(--main-theme-color);
