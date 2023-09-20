@@ -21,6 +21,7 @@
 body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    height: 2000px;
 }
 
 /* ----- HEADER ------ */
@@ -85,4 +86,38 @@ button{
 
 /* ---- END HEADER ----- */
 
-/* ---- SLIDESHOW ------ */
+/* ----- HERO IMAGE ---- */
+
+.hero-image {
+    margin-top: 125px;
+}
+.hero-image .row {
+    display: flex;
+    gap: 15px;
+}
+.hero-image .col:first-child{
+    height: 472px;
+}
+.hero-image .col:first-child img {
+    width: 667px;
+    height: 472px;
+    object-fit: cover;
+}
+.hero-image .col:first-child img:hover,
+.hero-image .col:last-child img:hover {
+    filter: brightness(60%);
+}
+.hero-image .col:last-child {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.hero-image .col:last-child img {
+    width: 325px;
+    height: 228px;
+}
+
+/* --- END HERO SECTION ----- */
+
+/* --- NAVBAR SECTION ---- */
+
