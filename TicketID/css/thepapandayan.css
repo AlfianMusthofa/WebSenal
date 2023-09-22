@@ -138,20 +138,17 @@ button{
 
 /* --- INFO UMUM ---- */
 
-.info-umum {
-    margin: 25px 0;
-    border-bottom: 1xp solid var(--border-radius-color);
-}
 .info-umum .row {
     width: 1133px;
     margin: auto;
     color: var(--font-color);
     display: flex;
     justify-content: space-between;
+    padding: 80px 0 30px 0;
+    border-bottom: 1px solid var(--border-radius-color);
 }
 .info-umum .col:last-child {
     text-align: end;
-    position: relative;
 }
 .info-umum .row .rating {
     display: flex;
@@ -223,4 +220,91 @@ button{
 }
 .info-umum .col .link-a:hover{
     background-color: var(--hover-main-color);
+}
+
+
+/* --- AKUN ---- */
+
+.akun .row {
+    width: 1133px;
+    margin: auto;
+    color: var(--font-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--border-radius-color);
+    align-items: center;
+}
+.akun .col:first-child {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.akun .col img {
+    width: 55px;
+}
+.akun .col .caption p {
+    font-size: 14px;
+    color: var(--font-color-grey);
+}
+.akun .col .link a{
+    padding: 10px 15px;
+    font-size: 14px;
+    color: var(--main-theme-color);
+    font-weight: 500;
+    border-radius: 7px;
+    background-color: var(--biru-muda);
+}
+
+/* -- FASILITAS --- */
+.benefit .container,
+.fasilitas .container {
+    width: 1133px;
+    margin: auto;
+    padding: 30px 0;
+    color: var(--font-color);
+    border-bottom: 1px solid var(--border-radius-color);
+}
+.benefit .title,
+.fasilitas .title {
+    margin-bottom: 35px;
+    font-size: 19px;
+}
+.benefit .row {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.benefit .card {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.benefit .card img {
+    width: 54px;
+}
+.benefit .card p{
+    font-size: 14px;
+    color: var(--font-color-grey);
+}
+
+/* FASILITAS */
+.fasilitas .row {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.fasilitas .card .sub-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 25px;
+}
+.fasilitas .card .sub-card .img{
+    height: 30px;
+}
+.fasilitas .card .sub-card img {
+    width: 25px;
+}
+.fasilitas .card .sub-card {
+    margin-bottom: 10px;
 }
