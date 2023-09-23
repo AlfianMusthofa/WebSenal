@@ -18,6 +18,7 @@
   scroll-behavior: smooth;
   transition: all 0.3s;
 }
+
 body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
@@ -31,14 +32,17 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
 }
+
 .header .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .header .logo img {
   width: 120px;
 }
+
 .header .links a,
 button {
   margin: 0 10px;
@@ -49,15 +53,19 @@ button {
   outline: none;
   background-color: transparent;
 }
+
 .header .links button {
   cursor: pointer;
 }
+
 .header .row {
   margin-top: 10px;
 }
+
 .header .row:first-child {
   margin-top: 0;
 }
+
 .header .row input {
   font-family: "Poppins", sans-serif;
   width: 350px;
@@ -67,6 +75,7 @@ button {
   outline: none;
   border: 1px solid var(--main-theme-color);
 }
+
 .header #daftar {
   padding: 6px 16px;
   border-radius: 5px;
@@ -74,6 +83,7 @@ button {
   background-color: var(--main-theme-color);
   transition: 0.4s;
 }
+
 .header #daftar:hover {
   background-color: var(--hover-main-color);
 }
@@ -85,27 +95,33 @@ button {
 .hero-image {
   margin-top: 0;
 }
+
 .hero-image .row {
   display: flex;
   gap: 15px;
 }
+
 .hero-image .col:first-child {
   height: 472px;
 }
+
 .hero-image .col:first-child img {
   width: 667px;
   height: 472px;
   object-fit: cover;
 }
+
 .hero-image .col:first-child img:hover,
 .hero-image .col:last-child img:hover {
   filter: brightness(60%);
 }
+
 .hero-image .col:last-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
 }
+
 .hero-image .col:last-child img {
   width: 325px;
   height: 228px;
@@ -126,6 +142,7 @@ button {
   right: 0;
   background-color: #fff;
 }
+
 .navbar a {
   display: inline-block;
   margin: 0 10px;
@@ -147,25 +164,30 @@ button {
   padding: 80px 0 30px 0;
   border-bottom: 1px solid var(--border-radius-color);
 }
+
 .info-umum .col:last-child {
   text-align: end;
 }
+
 .info-umum .row .rating {
   display: flex;
   align-items: center;
   gap: 10px;
   color: var(--font-color);
 }
+
 .info-umum .row .rating .kategori {
   border: 1px solid var(--font-color);
   padding: 0 5px;
   border-radius: 5px;
   font-size: 14px;
 }
+
 .info-umum .col .title {
   font-size: 25px;
   margin-top: 8px;
 }
+
 .info-umum .rate,
 .info-umum .location {
   display: flex;
@@ -174,11 +196,13 @@ button {
   font-size: 15px;
   margin-top: 8px;
 }
+
 .info-umum .rate p,
 .info-umum .location p {
   color: var(--font-color-grey);
   font-weight: 500;
 }
+
 .info-umum .col .banner {
   font-size: 12px;
   border: 1px solid red;
@@ -188,23 +212,29 @@ button {
   margin-left: 100px;
   border-radius: 5px;
 }
+
 .info-umum .col .sub-caption {
   margin-top: 3px;
 }
+
 .info-umum .col .price {
   font-size: 18px;
   line-height: 22px;
 }
+
 .info-umum .col .price .sub-price {
   font-size: 12px;
 }
+
 .info-umum .col .price .harga {
   color: var(--price-color);
 }
+
 .info-umum .col .time {
   margin-top: 4px;
   font-size: 12px;
 }
+
 .info-umum .col .link-a {
   margin-top: 10px;
   background-color: var(--main-theme-color);
@@ -215,9 +245,11 @@ button {
   padding: 8px 0;
   border-radius: 6px;
 }
+
 .info-umum .col .link-a a {
   color: #fff;
 }
+
 .info-umum .col .link-a:hover {
   background-color: var(--hover-main-color);
 }
@@ -234,18 +266,22 @@ button {
   border-bottom: 1px solid var(--border-radius-color);
   align-items: center;
 }
+
 .akun .col:first-child {
   display: flex;
   gap: 20px;
   align-items: center;
 }
+
 .akun .col img {
   width: 55px;
 }
+
 .akun .col .caption p {
   font-size: 14px;
   color: var(--font-color-grey);
 }
+
 .akun .col .link a {
   padding: 10px 15px;
   font-size: 14px;
@@ -268,6 +304,7 @@ button {
   color: var(--font-color);
   border-bottom: 1px solid var(--border-radius-color);
 }
+
 .benefit .title,
 .fasilitas .title,
 .lokasi .title,
@@ -277,19 +314,23 @@ button {
   margin-bottom: 35px;
   font-size: 19px;
 }
+
 .benefit .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
+
 .benefit .card {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
 .benefit .card img {
   width: 54px;
 }
+
 .benefit .card p {
   font-size: 14px;
   color: var(--font-color-grey);
@@ -300,18 +341,22 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .fasilitas .card .sub-card {
   display: flex;
   align-items: center;
   gap: 10px;
   padding-left: 25px;
 }
+
 .fasilitas .card .sub-card .img {
   height: 30px;
 }
+
 .fasilitas .card .sub-card img {
   width: 25px;
 }
+
 .fasilitas .card .sub-card {
   margin-bottom: 10px;
 }
@@ -323,32 +368,40 @@ button {
   gap: 20px;
   color: var(--font-color);
 }
+
 .lokasi .col .address {
   color: var(--font-color-grey);
 }
+
 .lokasi .col .sub-title h4 {
   padding: 16px 0;
   border-bottom: 1px solid var(--border-radius-color);
 }
+
 .lokasi .tempat-row {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
+
 .lokasi .sub-card:first-child {
   display: flex;
   gap: 10px;
 }
+
 .lokasi .sub-card .img {
   height: 50px;
 }
+
 .lokasi .sub-card img {
   width: 45px;
 }
+
 .lokasi .tempat .nama-tempat {
   font-size: 15px;
   font-weight: 500;
 }
+
 .lokasi .tempat .tempat-kategori {
   font-size: 14px;
   color: var(--font-color-grey);
@@ -364,15 +417,18 @@ button {
   cursor: pointer;
   transition: 0.4s;
 }
+
 .faq .accordion h4 {
   font-size: 15px;
 }
+
 .faq .panel {
   padding: 10px 0;
   display: none;
   overflow: hidden;
   transition: 0.2s ease-out;
 }
+
 .faq .panel p {
   font-size: 14px;
 }
@@ -381,21 +437,102 @@ button {
 .kamar .kamar-row {
   display: flex;
   gap: 10px;
-  align-items: center;
 }
+
 .kamar .col:first-child {
-  border: 1px solid red;
   width: 228px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
 }
+
 .kamar .kamar-row img {
   width: 227px;
   height: 89px;
   object-fit: cover;
 }
+
 .kamar .kamar-row .caption {
   padding: 10px;
 }
+
 .kamar .col:last-child {
-  border: 1px solid red;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
   padding: 10px;
+  width: 100%;
+}
+
+.col:last-child .col-title {
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-radius-color);
+}
+
+.col:last-child .col-title p {
+  font-size: 14px;
+}
+
+.col:last-child .content {
+  display: flex;
+  gap: 10px;
+}
+
+.col:last-child .content:nth-child(2),
+.col:last-child .content:nth-child(3),
+.col:last-child .content:nth-child(4) {
+  margin-top: 5px;
+}
+
+.col:last-child .content img {
+  width: 20px;
+  height: auto;
+}
+
+.kamar .row-info-kamar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.kamar .row-info-kamar:last-child {
+  text-align: end;
+}
+
+.kamar .info-kamar-banner p {
+  font-size: 12px;
+  background-color: var(--price-color);
+  color: #fff;
+  padding: 4px 7px;
+  border-radius: 5px;
+  width: 100px;
+  margin-left: 100px;
+}
+
+.kamar .col-info-kamar:last-child .price {
+  line-height: 20px;
+  margin-top: 6px;
+}
+
+.kamar .col-info-kamar:last-child .last-price {
+  font-size: 13px;
+  color: var(--font-color-grey);
+  text-decoration: line-through;
+}
+
+.kamar .col-info-kamar:last-child .permalam {
+  font-size: 12px;
+  color: var(--font-color-grey);
+}
+
+.kamar .col-info-kamar:last-child .new-price {
+  color: var(--price-color);
+}
+
+.kamar .col-info-kamar:last-child .links {
+  margin: 8px 0;
+}
+
+.kamar .col-info-kamar:last-child .links a {
+  background-color: var(--main-theme-color);
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 15px;
+  border-radius: 7px;
 }
