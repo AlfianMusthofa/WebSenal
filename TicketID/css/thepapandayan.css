@@ -255,10 +255,13 @@ button {
   background-color: var(--biru-muda);
 }
 
-/* -- FASILITAS --- */
+/* -- BENEFIT --- */
 .benefit .container,
 .fasilitas .container,
-.lokasi .container {
+.lokasi .container,
+.tentang .container,
+.faq .container,
+.kamar .container {
   width: 1133px;
   margin: auto;
   padding: 30px 0;
@@ -267,7 +270,10 @@ button {
 }
 .benefit .title,
 .fasilitas .title,
-.lokasi .title {
+.lokasi .title,
+.tentang .title,
+.faq .title,
+.kamar .title {
   margin-bottom: 35px;
   font-size: 19px;
 }
@@ -308,4 +314,88 @@ button {
 }
 .fasilitas .card .sub-card {
   margin-bottom: 10px;
+}
+
+/* LOKASI */
+
+.lokasi .row {
+  display: flex;
+  gap: 20px;
+  color: var(--font-color);
+}
+.lokasi .col .address {
+  color: var(--font-color-grey);
+}
+.lokasi .col .sub-title h4 {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border-radius-color);
+}
+.lokasi .tempat-row {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.lokasi .sub-card:first-child {
+  display: flex;
+  gap: 10px;
+}
+.lokasi .sub-card .img {
+  height: 50px;
+}
+.lokasi .sub-card img {
+  width: 45px;
+}
+.lokasi .tempat .nama-tempat {
+  font-size: 15px;
+  font-weight: 500;
+}
+.lokasi .tempat .tempat-kategori {
+  font-size: 14px;
+  color: var(--font-color-grey);
+}
+
+/* FAQ */
+.faq .accordion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border-radius-color);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.faq .accordion h4 {
+  font-size: 15px;
+}
+.faq .panel {
+  padding: 10px 0;
+  display: none;
+  overflow: hidden;
+  transition: 0.2s ease-out;
+}
+.faq .panel p {
+  font-size: 14px;
+}
+
+/* KAMAR */
+.kamar .kamar-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.kamar .col:first-child {
+  border: 1px solid red;
+  width: 228px;
+}
+.kamar .kamar-row img {
+  width: 227px;
+  height: 89px;
+  object-fit: cover;
+}
+.kamar .kamar-row .caption {
+  padding: 10px;
+}
+.kamar .col:last-child {
+  border: 1px solid red;
+  padding: 10px;
 }
