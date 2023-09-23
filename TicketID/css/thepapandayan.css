@@ -437,6 +437,11 @@ button {
 .kamar .kamar-row {
   display: flex;
   gap: 10px;
+  margin-top: 10px;
+}
+
+.kamar .kamar-row:last-child {
+  margin-top: 25px;
 }
 
 .kamar .col:first-child {
@@ -448,6 +453,8 @@ button {
   width: 227px;
   height: 89px;
   object-fit: cover;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
 }
 
 .kamar .kamar-row .caption {
@@ -466,7 +473,8 @@ button {
 }
 
 .col:last-child .col-title p {
-  font-size: 14px;
+  font-size: 13px;
+  color: var(--font-color-grey);
 }
 
 .col:last-child .content {
@@ -477,12 +485,17 @@ button {
 .col:last-child .content:nth-child(2),
 .col:last-child .content:nth-child(3),
 .col:last-child .content:nth-child(4) {
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .col:last-child .content img {
-  width: 20px;
+  width: 18px;
   height: auto;
+}
+
+.col:last-child .content p {
+  font-size: 14px;
+  color: var(--font-color-grey);
 }
 
 .kamar .row-info-kamar {
@@ -526,7 +539,7 @@ button {
 }
 
 .kamar .col-info-kamar:last-child .links {
-  margin: 8px 0;
+  margin: 9px 0;
 }
 
 .kamar .col-info-kamar:last-child .links a {
@@ -534,5 +547,30 @@ button {
   color: #fff;
   padding: 8px 15px;
   font-size: 15px;
+  border-radius: 7px;
+}
+
+.kamar .kamar-row .fasilitas-kamar {
+  display: flex;
+  gap: 10px;
+}
+
+.kamar .kamar-row .fasilitas-kamar:nth-child(2),
+.kamar .kamar-row .fasilitas-kamar:nth-child(3),
+.kamar .kamar-row .fasilitas-kamar:nth-child(4) {
+  margin-top: 7px;
+}
+
+.kamar .kamar-row .fasilitas-kamar p {
+  font-size: 14px;
+  color: var(--font-color-grey);
+}
+
+.kamar .kamar-row .fasilitas-kamar img {
+  width: 18px;
+  height: auto;
+}
+
+.kamar .row .col {
   border-radius: 7px;
 }
