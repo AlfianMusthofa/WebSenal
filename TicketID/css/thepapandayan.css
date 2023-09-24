@@ -297,7 +297,8 @@ button {
 .lokasi .container,
 .tentang .container,
 .faq .container,
-.kamar .container {
+.kamar .container,
+.rekomendasi .container {
   width: 1133px;
   margin: auto;
   padding: 30px 0;
@@ -310,7 +311,8 @@ button {
 .lokasi .title,
 .tentang .title,
 .faq .title,
-.kamar .title {
+.kamar .title,
+.rekomendasi .title {
   margin-bottom: 35px;
   font-size: 19px;
 }
@@ -485,7 +487,7 @@ button {
 .col:last-child .content:nth-child(2),
 .col:last-child .content:nth-child(3),
 .col:last-child .content:nth-child(4) {
-  margin-top: 7px;
+  margin-top: 10px;
 }
 
 .col:last-child .content img {
@@ -573,4 +575,118 @@ button {
 
 .kamar .row .col {
   border-radius: 7px;
+}
+
+/* REKOMENDASI */
+.rekomendasi .row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.rekomendasi .row .col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rekomendasi .col a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 15px;
+}
+
+.rekomendasi .col a:hover {
+  color: var(--main-theme-color);
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 10px;
+  padding: 30px 7%;
+}
+
+footer .footer-con {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  padding: 20px 0;
+}
+
+footer .footer-con .box {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer-con .box h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+footer .footer-con .box .message,
+.mail,
+.phone {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+footer .footer-con .box p {
+  margin-left: 9px;
+}
+
+footer .footer-con .box a {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+footer .footer-con .box a:hover {
+  color: var(--main-theme-color);
+}
+
+footer p {
+  font-size: 15px;
+}
+
+.social {
+  padding: 20px 7%;
+  text-align: center;
+  border-top: 1px solid var(--font-color-grey);
+}
+
+.social p {
+  margin: 10px 0;
+}
+
+.social-icon img {
+  width: 25px;
+  height: 25px;
+}
+
+.social .social-icon {
+  margin: 16px 0;
+}
+
+.social .social-icon a {
+  padding: 0 4px;
+}
+
+.social .cpr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social .cpr img {
+  width: 13px;
+  height: 13px;
+}
+
+.social .cpr span {
+  margin-left: 3px;
+  font-size: 14px;
+}
+
+.copyright p {
+  margin-left: 20px;
 }
