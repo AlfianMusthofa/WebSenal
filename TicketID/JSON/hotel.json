@@ -12,7 +12,7 @@
         "image": "thepapandayan (3).jpeg",
         "name": "The Papandayan",
         "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
-        "address": "Gedebage, Bandung",
+        "address": "Lengkong, Bandung",
         "review": "4/5 (1.800 review)",
         "lastPrice": "IDR 2.000.000",
         "currentPrice": "IDR 1.000.000"
@@ -21,7 +21,7 @@
         "image": "thepapandayan (3).jpeg",
         "name": "Vasaka Maison Bandung",
         "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
-        "address": "Gedebage, Bandung",
+        "address": "Asia Afrika, Bandung",
         "review": "4/5 (1.800 review)",
         "lastPrice": "IDR 2.000.000",
         "currentPrice": "IDR 1.000.000"
@@ -30,7 +30,7 @@
         "image": "thepapandayan (3).jpeg",
         "name": "Hotel Daily Inn Bandung",
         "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
-        "address": "Gedebage, Bandung",
+        "address": "Asia Afrika, Bandung",
         "review": "4/5 (1.800 review)",
         "lastPrice": "IDR 2.000.000",
         "currentPrice": "IDR 1.000.000"
@@ -39,7 +39,34 @@
         "image": "thepapandayan (3).jpeg",
         "name": "Favehotel Braga",
         "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
-        "address": "Gedebage, Bandung",
+        "address": "Sumur Bandung, Bandung",
+        "review": "4/5 (1.800 review)",
+        "lastPrice": "IDR 2.000.000",
+        "currentPrice": "IDR 1.000.000"
+    },
+    {
+        "image": "thepapandayan (3).jpeg",
+        "name": "Kazeem Topas Galeria",
+        "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Cicendo, Bandung",
+        "review": "4/5 (1.800 review)",
+        "lastPrice": "IDR 2.000.000",
+        "currentPrice": "IDR 1.000.000"
+    },
+    {
+        "image": "thepapandayan (3).jpeg",
+        "name": "Wood Hotel Bandung",
+        "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Cidadap, Bandung",
+        "review": "4/5 (1.800 review)",
+        "lastPrice": "IDR 2.000.000",
+        "currentPrice": "IDR 1.000.000"
+    },
+    {
+        "image": "thepapandayan (3).jpeg",
+        "name": "Kazeem Inn Pasteur",
+        "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Cicendo, Bandung",
         "review": "4/5 (1.800 review)",
         "lastPrice": "IDR 2.000.000",
         "currentPrice": "IDR 1.000.000"
