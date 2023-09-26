@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll('.menu-button');
 buttons.forEach(button => {
-    button.addEventListener('click', function() {
+    button.addEventListener('click', function () {
         buttons.forEach(btn => {
             btn.classList.remove('active');
             btn.style.backgroundColor = '';
@@ -8,7 +8,7 @@ buttons.forEach(button => {
         });
 
         button.classList.add('active');
-        button.style.backgroundColor = '#cce6ff'; 
+        button.style.backgroundColor = '#cce6ff';
         button.style.border = '1px solid blue';
 
     });
@@ -17,7 +17,7 @@ buttons.forEach(button => {
 const summaryButtons = document.querySelectorAll('.summary-button');
 
 summaryButtons.forEach(button => {
-    button.addEventListener('click', function() {
+    button.addEventListener('click', function () {
         summaryButtons.forEach(btn => {
             btn.classList.remove('active');
             btn.style.backgroundColor = '';
@@ -32,32 +32,32 @@ summaryButtons.forEach(button => {
 
 const nav = document.querySelector('#nav');
 const menu = document.querySelector('#menu');
-menu.addEventListener('click', function(){
+menu.addEventListener('click', function () {
     nav.classList.toggle('active');
 });
 
-document.addEventListener('click', function(e){
+document.addEventListener('click', function (e) {
     if (!menu.contains(e.target) && !nav.contains(e.target)) {
         nav.classList.remove('active');
     }
 })
 
 
-$(document).ready(function() {
-    for (let i = 1; i <= 6; i++) { 
-        $('.menu-button-hotel' + i).on('click', function() {
+$(document).ready(function () {
+    for (let i = 1; i <= 6; i++) {
+        $('.menu-button-hotel' + i).on('click', function () {
             $('.menu-button-hotel' + i).removeClass('active');
             $('.menu-button-hotel' + i).css('backgroundColor', 'transparent');
             $('.menu-button-hotel' + i).css('border', '1px solid #bfbfbf');
             $(this).addClass('active');
-            $(this).css('backgroundColor','#cce6ff');
-            $(this).css('border','1px solid #429dff');
+            $(this).css('backgroundColor', '#cce6ff');
+            $(this).css('border', '1px solid #429dff');
 
             let cityName = $(this).html();
 
-            $.getJSON('JSON/data-tempat' + i + '.json', function(data) {
+            $.getJSON('JSON/data-tempat' + i + '.json', function (data) {
                 let content = '';
-                $.each(data, function(j, data) {
+                $.each(data, function (j, data) {
                     if (data.city == cityName) {
                         content += `<a href="${data.link}">
                         <div class="card">
@@ -87,7 +87,7 @@ $(document).ready(function() {
                     </a>`
                     }
                 });
-                
+
                 $('#daftar-tempat' + i).html(content);
             });
         });
@@ -97,11 +97,11 @@ $(document).ready(function() {
 
 
 const fileNumbers = [1, 2, 3, 4, 5, 6];
-$(document).ready(function() {
-    fileNumbers.forEach(function(number) {
-        $.getJSON('JSON/data-tempat' + number + '.json', function(data) {
-            $.each(data, function(i, data) {
-                $('#daftar-tempat'+ number).append(`<a href="${data.link}">
+$(document).ready(function () {
+    fileNumbers.forEach(function (number) {
+        $.getJSON('JSON/data-tempat' + number + '.json', function (data) {
+            $.each(data, function (i, data) {
+                $('#daftar-tempat' + number).append(`<a href="${data.link}">
                 <div class="card">
                     <img src="image/tempat${number}/${data.image}">
                     <div class="caption">
@@ -132,9 +132,9 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function(){
-    $.getJSON('JSON/data-tempat7.json', function(data) {
-        $.each(data, function(i, data) {
+$(document).ready(function () {
+    $.getJSON('JSON/data-tempat7.json', function (data) {
+        $.each(data, function (i, data) {
             $('#event-row').append(`<a href="#" class="">
             <div class="card">
                 <img src="image/tempat7/${data.image}">
@@ -152,9 +152,9 @@ $(document).ready(function(){
     })
 })
 
-$(document).ready(function() {
-    $.getJSON('JSON/data-tempat8.json', function(data){
-        $.each(data, function(i, data) {
+$(document).ready(function () {
+    $.getJSON('JSON/data-tempat8.json', function (data) {
+        $.each(data, function (i, data) {
             $('#data-penerbangan').append(`<a href="#">
             <div class="card">
                 <img src="image/tempat8/${data.image}">
@@ -185,6 +185,20 @@ $(document).ready(function() {
     })
 })
 
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 4000);
+}
 // $(document).ready(function() {
 //     $.getJSON('JSON/data-summary.json', function(data) {
 //         var html = ''; // Variabel untuk menyimpan HTML
