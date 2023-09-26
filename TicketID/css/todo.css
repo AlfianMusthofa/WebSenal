@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&family=Satisfy&display=swap');
+
+:root {
+    --main-theme-color: #007bff;
+    --font-color: #303135;
+    --font-color-grey: #71747D;
+    --hover-main-color: #429dff;
+    --price-color: #F15C59;
+    --biru-muda: #cce6ff;
+    --border-radius-color: #bfbfbf;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: all 0.3s;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    padding: 15px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+    /* font-size: 15px; */
+}
+
+.header .logo img {
+    width: 120px;
+}
+
+.header .navlink a {
+    margin: 0 10px;
+    color: var(--font-color);
+    font-weight: 500;
+}
+
+.header .navlink .daftar {
+    background-color: var(--main-theme-color);
+    padding: 4px 15px;
+    color: #fff;
+    border-radius: 5px;
+    transition: none;
+}
+
+.header .navlink .daftar:hover {
+    background-color: var(--hover-main-color);
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.hero {
+    position: absolute;
+    top: 245px;
+    left: 0;
+    padding: 0 7%;
+}
+
+.hero .content .title {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hero .content input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.hero .content i {
+    position: absolute;
+    top: 69px;
+    left: 110px;
+}
