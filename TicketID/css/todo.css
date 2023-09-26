@@ -134,9 +134,43 @@ body {
 
 .icon .row .box-img p {
     font-size: 12px;
+    color: var(--font-color);
 }
 
 .icon .row img:hover {
     transform: scale(1.4, 1.4);
     overflow: hidden;
+}
+
+.bertualangan {
+    color: var(--font-color);
+    padding: 0 7%;
+    margin-top: 60px;
+}
+
+.bertualangan .title h3 {
+    font-size: 22px;
+}
+
+.bertualangan .title p {
+    font-size: 15px;
+    color: var(--font-color-grey);
+}
+
+.bertualangan .btn {
+    margin-top: 10px;
+}
+
+.bertualangan .btn button {
+    padding: 7px 13px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    border: 1px solid var(--main-theme-color);
+    color: var(--font-color-grey);
+    margin-left: 5px;
+}
+
+.bertualangan .btn button:first-child {
+    margin-left: 0;
 }
