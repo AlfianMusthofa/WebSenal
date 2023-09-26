@@ -22,19 +22,21 @@
 body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* height: 2000px; */
 }
 
 .header {
     padding: 20px 7%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
     font-family: 'Poppins', sans-serif;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     z-index: 100;
     background-color: #fff;
 }
+
 
 .header .row {
     display: flex;
@@ -91,27 +93,56 @@ button {
     background-color: var(--hover-main-color);
 }
 
-.hotel-list .col {
+
+.wrapper {
     display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.wrapper .map {
+    /* margin-top: 140px; */
+    position: sticky;
+    top: 0;
 }
 
 .hotel-list {
-    margin-top: 140px;
-    padding: 0 7%;
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+    /* gap: 10px; */
+    /* margin-top: 140px; */
+    padding: 0 0 0 7%;
+    width: 750px;
 }
 
 .hotel-list img {
-    height: 250px;
+    height: 100%;
     width: 214px;
     object-fit: cover;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
 }
 
 .hotel-list .card {
     display: flex;
+    width: 650px;
+    height: 250px;
+    /* border: 1px solid red; */
+    border-radius: 7px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    color: var(--font-color);
+    margin-bottom: 20px;
 }
 
 .hotel-list .card .caption {
     padding: 10px;
+    width: 100%;
+}
+
+.hotel-list .card .title,
+.hotel-list .card .rating {
+    margin-bottom: 3px
 }
 
 .row:first-child .rating {
@@ -122,11 +153,77 @@ button {
 
 .row:first-child .review {
     display: flex;
-    gap: 10px;
+    gap: 7px;
     font-size: 13px;
 }
 
-.row:nth-child(2) {
+.hotel-list .row:nth-child(2) {
     text-align: end;
     font-size: 14px;
+    margin-top: 10px;
+}
+
+.hotel-list .row:first-child .star {
+    font-size: 11px;
+}
+
+.hotel-list .row:nth-child(2) .banner p {
+    background-color: var(--price-color);
+    padding: 2px;
+    width: 100px;
+    margin-left: 315px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.hotel-list .row:nth-child(2) .price {
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+.hotel-list .row:nth-child(2) .last-price {
+    font-size: 13px;
+    text-decoration: line-through;
+    color: var(--font-color-grey);
+    font-weight: 500;
+}
+
+.hotel-list .row:nth-child(2) .current-price {
+    font-size: 18px;
+    color: var(--price-color);
+}
+
+.hotel-list .row:nth-child(2) .sk {
+    font-size: 12px;
+    color: var(--font-color-grey);
+    font-weight: 500;
+}
+
+.hotel-list .row:last-child {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    margin-top: 28px;
+    padding-top: 7px;
+    border-top: 1px solid var(--border-radius-color);
+}
+
+.hotel-list .row:last-child P {
+    padding: 3px 7px;
+    background-color: var(--main-theme-color);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.hotel-list .row:first-child .addr {
+    color: var(--font-color-grey);
+    font-weight: 500;
+}
+
+.hotel-list .row:first-child .userreview {
+    color: var(--font-color-grey);
+    font-size: 13px;
+    font-weight: 500;
 }

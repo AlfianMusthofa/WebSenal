@@ -1,0 +1,47 @@
+[
+    {
+        "image": "thepapandayan (3).jpeg",
+        "name": "Shakti Hotel Bandung",
+        "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Gedebage, Bandung",
+        "review": "4/5 (1.800 review)",
+        "lastPrice": "IDR 2.000.000",
+        "currentPrice": "IDR 1.000.000"
+    },
+    {
+        "image": "thepapandayan (3).jpeg",
+        "name": "The Papandayan",
+        "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Gedebage, Bandung",
+        "review": "4/5 (1.800 review)",
+        "lastPrice": "IDR 2.000.000",
+        "currentPrice": "IDR 1.000.000"
+    },
+    {
+        "image": "thepapandayan (3).jpeg",
+        "name": "Vasaka Maison Bandung",
+        "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Gedebage, Bandung",
+        "review": "4/5 (1.800 review)",
+        "lastPrice": "IDR 2.000.000",
+        "currentPrice": "IDR 1.000.000"
+    },
+    {
+        "image": "thepapandayan (3).jpeg",
+        "name": "Hotel Daily Inn Bandung",
+        "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Gedebage, Bandung",
+        "review": "4/5 (1.800 review)",
+        "lastPrice": "IDR 2.000.000",
+        "currentPrice": "IDR 1.000.000"
+    },
+    {
+        "image": "thepapandayan (3).jpeg",
+        "name": "Favehotel Braga",
+        "star": "<i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i> <i class='fa-solid fa-star'></i>",
+        "address": "Gedebage, Bandung",
+        "review": "4/5 (1.800 review)",
+        "lastPrice": "IDR 2.000.000",
+        "currentPrice": "IDR 1.000.000"
+    }
+]
