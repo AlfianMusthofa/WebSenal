@@ -191,6 +191,14 @@ body {
     margin-top: 6px;
 }
 
+.hero-text i {
+    position: absolute;
+    top: 287px;
+    left: 15px;
+    font-size: 18px;
+    color: #aeaeae;
+}
+
 /* ----- content ----- */
 .content {
     padding: 40px 7%;
