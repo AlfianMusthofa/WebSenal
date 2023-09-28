@@ -174,3 +174,49 @@ body {
 .bertualangan .btn button:first-child {
     margin-left: 0;
 }
+
+.bertualangan .row {
+    margin-top: 20px;
+}
+
+.bertualangan .row .card {
+    width: 206px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.bertualangan .row img {
+    width: 206px;
+    height: 137px;
+    object-fit: cover;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.bertualangan .caption {
+    padding: 10px;
+    color: var(--font-color);
+}
+
+.bertualangan .caption .address {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--font-color-grey);
+}
+
+.bertualangan .price {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.bertualangan .price .lastPrice {
+    font-size: 13px;
+    color: var(--font-color-grey);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.bertualangan .price .currentPrice {
+    color: var(--price-color);
+    font-size: 17px;
+}
