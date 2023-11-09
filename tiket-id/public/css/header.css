@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&family=Satisfy&display=swap");
+
+:root {
+    --main-theme-color: #007bff;
+    --font-color: #303135;
+    --font-color-grey: #71747d;
+    --hover-main-color: #429dff;
+    --price-color: #f15c59;
+    --biru-muda: #cce6ff;
+    --border-radius-color: #bfbfbf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    border: 1px solid red;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
