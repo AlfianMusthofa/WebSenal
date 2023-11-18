@@ -51,6 +51,26 @@ header .hidden-nav {
     display: none;
 }
 
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+}
+
 @media (max-width: 576px) {
 
     header .navlink {
