@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&family=Satisfy&display=swap');
+
+:root {
+    --black-color: #303135;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px 7%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header .logo a {
+    font-size: 18px;
+}
+
+header .navlink {
+    display: flex;
+    gap: 13px;
+}
+
+header .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+header .menu div {
+    width: 20px;
+    border: 1px solid var(--black-color);
+}
+
+header .hidden-nav {
+    display: none;
+}
+
+@media (max-width: 576px) {
+
+    header .navlink {
+        display: none;
+    }
+    
+    header .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    header .hidden-nav.active {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 57px;
+        right: 0;
+        width: 160px;
+        padding: 7px;
+        box-shadow: 3px 0 10px rgba(0,0,0,0.2);
+    }
+}
